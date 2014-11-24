@@ -8,7 +8,8 @@ public final class AppConfig {
 	private String endPoint;
 	private String outputDirectory;
 	private String restEndPoint;
-	
+	private String fundInfoExportOutputDirectory;
+	private String contactLevelServicesOutputDirectory;
 	
 	public String getRestEndPoint() {
 		return restEndPoint;
@@ -40,6 +41,20 @@ public final class AppConfig {
 	}
 	public void setEndPoint(String endPoint) {
 		this.endPoint = endPoint;
+	}
+	public String getFundInfoExportOutputDirectory() {
+		return fundInfoExportOutputDirectory;
+	}
+	public void setFundInfoExportOutputDirectory(
+			String fundInfoExportOutputDirectory) {
+		this.fundInfoExportOutputDirectory = fundInfoExportOutputDirectory;
+	}
+	public String getContactLevelServicesOutputDirectory() {
+		return contactLevelServicesOutputDirectory;
+	}
+	public void setContactLevelServicesOutputDirectory(
+			String contactLevelServicesOutputDirectory) {
+		this.contactLevelServicesOutputDirectory = contactLevelServicesOutputDirectory;
 	}
 	
 	

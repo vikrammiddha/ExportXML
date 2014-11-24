@@ -1556,3 +1556,166 @@
 2014-11-24 10:02:36 DEBUG SFDCHandler:206 - Total Web translations retreived : 929
 2014-11-24 10:02:37 DEBUG SFDCHandler:258 - Total Investor Contacts  retreived : 21
 2014-11-24 10:02:38 DEBUG XMLUtils:108 - Writing to File Completed.....
+2014-11-24 13:01:04 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 13:01:04 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 13:01:04 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 13:01:06 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 13:01:06 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 13:01:06 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 13:01:06 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLAsiBMykPPzfC6anK1_U3bvzk8aez6GgFBzCS4JPzgekAgb8SEa5EFnJ.lsSOsWoih8k72mmmwGScWvSB6BBSKnxX0r
+2014-11-24 13:01:06 DEBUG SFDCHandler:115 - Querying Funds.....
+2014-11-24 13:01:08 ERROR XMLUtils:115 - Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :null
+2014-11-24 13:01:08 ERROR XMLUtils:154 - Exception occur while writing to file : 
+java.io.FileNotFoundException: /Users/vikrammiddha/Apex Workspace/ExportXML/-sp_web_exportfundinfo-20141124130108/-sp_web_exportfundinfo-20141124130108.xml (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:206)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at Utils.FileHandler.write(FileHandler.java:38)
+	at Utils.XMLUtils.writeToXMLFileForFundsInfoExport(XMLUtils.java:152)
+	at Utils.XMLUtils.createXMLFileForFundExport(XMLUtils.java:131)
+	at Utils.XMLUtils.generateFundInfoXMLFiles(XMLUtils.java:119)
+	at com.Main.initiateFundExportProcess(Main.java:52)
+	at com.Main.main(Main.java:32)
+2014-11-24 13:01:08 ERROR XMLUtils:154 - Exception occur while writing to file : 
+java.io.FileNotFoundException: /Users/vikrammiddha/Apex Workspace/ExportXML/-sp_web_exportfundinfo-20141124130108/-sp_web_exportfundinfo-20141124130108.xml (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:206)
+	at java.io.FileWriter.<init>(FileWriter.java:107)
+	at Utils.FileHandler.write(FileHandler.java:38)
+	at Utils.XMLUtils.writeToXMLFileForFundsInfoExport(XMLUtils.java:152)
+	at Utils.XMLUtils.createXMLFileForFundExport(XMLUtils.java:137)
+	at Utils.XMLUtils.generateFundInfoXMLFiles(XMLUtils.java:119)
+	at com.Main.initiateFundExportProcess(Main.java:52)
+	at com.Main.main(Main.java:32)
+2014-11-24 13:01:08 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 13:02:26 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 13:02:26 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 13:02:26 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 13:02:28 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 13:02:28 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 13:02:28 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 13:02:28 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLAsiBMykPPzfC6anK1_U3bvzk8aez6GgFBzCS4JPzgekAgb8SEa5EFnJ.lsSOsWoih8k72mmmwGScWvSB6BBSKnxX0r
+2014-11-24 13:02:28 DEBUG SFDCHandler:115 - Querying Funds.....
+2014-11-24 13:02:29 ERROR XMLUtils:115 - Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :null
+2014-11-24 13:02:29 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 13:04:05 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 13:04:05 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 13:04:05 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 13:04:07 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 13:04:07 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 13:04:07 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 13:04:07 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLAsiBMykPPzfC6anK1_U3bvzk8aez6GgFBzCS4JPzgekAgb8SEa5EFnJ.lsSOsWoih8k72mmmwGScWvSB6BBSKnxX0r
+2014-11-24 13:04:07 DEBUG SFDCHandler:115 - Querying Funds.....
+2014-11-24 13:04:09 ERROR XMLUtils:115 - Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :nullnull[Ljava.lang.StackTraceElement;@3dd4520b
+2014-11-24 13:04:09 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 13:05:59 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 13:05:59 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 13:05:59 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 13:06:01 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 13:06:01 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 13:06:01 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 13:06:01 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLAsiBMykPPzfC6anK1_U3bvzk8aez6GgFBzCS4JPzgekAgb8SEa5EFnJ.lsSOsWoih8k72mmmwGScWvSB6BBSKnxX0r
+2014-11-24 13:06:01 DEBUG SFDCHandler:115 - Querying Funds.....
+2014-11-24 13:06:06 ERROR XMLUtils:115 - Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :[InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='
+SELECT Id,Fund_Code__c, Fund_EIN__c,ITG_FAMILY,Type__c,ITG_TAX_LINK__c
+                                    ^
+ERROR at Row:1:Column:37
+No such column 'ITG_FAMILY' on entity 'Fund__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.'
+]
+ row='1'
+ column='37'
+]
+]
+[InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='
+SELECT Id,Fund_Code__c, Fund_EIN__c,ITG_FAMILY,Type__c,ITG_TAX_LINK__c
+                                    ^
+ERROR at Row:1:Column:37
+No such column 'ITG_FAMILY' on entity 'Fund__c'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names.'
+]
+ row='1'
+ column='37'
+]
+]
+[Ljava.lang.StackTraceElement;@610694f1
+2014-11-24 13:06:06 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 13:06:49 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 13:06:49 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 13:06:49 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 13:06:51 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 13:06:51 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 13:06:51 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 13:06:51 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLAsiBMykPPzfC6anK1_U3bvzk8aez6GgFBzCS4JPzgekAgb8SEa5EFnJ.lsSOsWoih8k72mmmwGScWvSB6BBSKnxX0r
+2014-11-24 13:06:51 DEBUG SFDCHandler:115 - Querying Funds.....
+2014-11-24 13:06:53 DEBUG SFDCHandler:125 - Total Funds retreived : 144
+2014-11-24 13:06:53 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 19:50:57 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 19:50:57 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 19:50:57 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 19:50:57 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 19:50:57 DEBUG Main:35 - =====Starting Contact Level Services Process=====
+2014-11-24 19:51:01 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 19:51:01 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 19:51:01 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 19:51:01 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLeaPoxsMI4A4MWVmDNuKSYn6_ca5V7GfgMB.QrnHNQyiJ9mUuexFJgKQ6OS6QiHkd5q2xUhVludTQ8N.vftQ3bYDomF
+2014-11-24 19:51:04 ERROR SFDCHandler:379 - Exception occured while querying funds .[InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='
+Investor_Account__r.Account_Status__c, Delivery_Rule__cInvestor_Account__r.Organization__c
+                                       ^
+ERROR at Row:1:Column:238
+Didn't understand relationship 'Delivery_Rule__cInvestor_Account__r' in field path. If you are attempting to use a custom relationship, be sure to append the '__r' after the custom relationship name. Please reference your WSDL or the describe call for the appropriate names.'
+]
+ row='1'
+ column='238'
+]
+]
+
+2014-11-24 19:51:04 ERROR XMLUtils:147 - Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :[InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='
+Investor_Account__r.Account_Status__c, Delivery_Rule__cInvestor_Account__r.Organization__c
+                                       ^
+ERROR at Row:1:Column:238
+Didn't understand relationship 'Delivery_Rule__cInvestor_Account__r' in field path. If you are attempting to use a custom relationship, be sure to append the '__r' after the custom relationship name. Please reference your WSDL or the describe call for the appropriate names.'
+]
+ row='1'
+ column='238'
+]
+]
+[InvalidFieldFault [ApiQueryFault [ApiFault  exceptionCode='INVALID_FIELD'
+ exceptionMessage='
+Investor_Account__r.Account_Status__c, Delivery_Rule__cInvestor_Account__r.Organization__c
+                                       ^
+ERROR at Row:1:Column:238
+Didn't understand relationship 'Delivery_Rule__cInvestor_Account__r' in field path. If you are attempting to use a custom relationship, be sure to append the '__r' after the custom relationship name. Please reference your WSDL or the describe call for the appropriate names.'
+]
+ row='1'
+ column='238'
+]
+]
+[Ljava.lang.StackTraceElement;@5c5a1b69
+2014-11-24 19:51:04 DEBUG Main:37 - =====Funds Contact Level Service Process Finished=====
+2014-11-24 19:51:38 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 19:51:38 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 19:51:38 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 19:51:38 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 19:51:38 DEBUG Main:35 - =====Starting Contact Level Services Process=====
+2014-11-24 19:51:40 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 19:51:40 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 19:51:40 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 19:51:40 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLeaPoxsMI4A4MWVmDNuKSYn6_ca5V7GfgMB.QrnHNQyiJ9mUuexFJgKQ6OS6QiHkd5q2xUhVludTQ8N.vftQ3bYDomF
+2014-11-24 19:51:44 DEBUG SFDCHandler:198 - Total CS  retreived : 1
+2014-11-24 19:51:44 DEBUG SFDCHandler:274 - Total Web translations retreived : 0
+2014-11-24 19:51:44 DEBUG Main:37 - =====Funds Contact Level Service Process Finished=====
+2014-11-24 19:54:32 DEBUG Main:27 - =====Starting Service Info Export Process=====
+2014-11-24 19:54:32 DEBUG Main:29 - =====Service Export Process Finished.======
+2014-11-24 19:54:32 DEBUG Main:31 - =====Starting Funds Info Export Process=====
+2014-11-24 19:54:32 DEBUG Main:33 - =====Funds Info Export Process Finished=====
+2014-11-24 19:54:32 DEBUG Main:35 - =====Starting Contact Level Services Process=====
+2014-11-24 19:54:34 DEBUG SFDCHandler:53 - Auth EndPoint: https://test.salesforce.com/services/Soap/u/32.0
+2014-11-24 19:54:34 DEBUG SFDCHandler:55 - Service EndPoint: https://cs10.salesforce.com/services/Soap/u/32.0/00DJ0000002m8V7
+2014-11-24 19:54:34 DEBUG SFDCHandler:56 - Username: angelo@silverlinecrm.com.uat
+2014-11-24 19:54:34 DEBUG SFDCHandler:57 - SessionId: 00DJ0000002m8V7!ARcAQLeaPoxsMI4A4MWVmDNuKSYn6_ca5V7GfgMB.QrnHNQyiJ9mUuexFJgKQ6OS6QiHkd5q2xUhVludTQ8N.vftQ3bYDomF
+2014-11-24 19:54:53 DEBUG SFDCHandler:198 - Total CS  retreived : 6884
+2014-11-24 19:55:02 DEBUG SFDCHandler:274 - Total Web translations retreived : 3
+2014-11-24 19:55:03 DEBUG Main:37 - =====Funds Contact Level Service Process Finished=====

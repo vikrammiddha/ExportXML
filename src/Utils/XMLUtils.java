@@ -19,7 +19,6 @@ import com.config.AppConfig;
 
 public class XMLUtils {
 
-	private StringBuilder sb = null;
 	private String outputFileName = null;
 	private AppConfig appConfig = null;
 	private SFDCHandler sfdcHandler = null;
@@ -47,17 +46,14 @@ public class XMLUtils {
 	}
 
 	public XMLUtils(AppConfig appConfig) throws Exception{
-		sb = new StringBuilder();
 		this.appConfig = appConfig;
 		sfdcHandler = new SFDCHandler(appConfig);
 		header = XMLHandler.getXMLHeader();
 		footer = XMLHandler.getXMLFooter();
 	}
 
-	public void generateXMLFiles(){
+	public void generateServiceExportXMLFiles(){
 		
-
-		//sfdcHandler.populateData(xmlObj);
 
 		ArrayList<Fund> fundList = new ArrayList<Fund>();
 		try {
@@ -79,7 +75,7 @@ public class XMLUtils {
 	private void createXMLFile(Fund fund) throws Exception{
 		
 		Date date = new Date() ;
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss") ;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss") ;
 		outputFileName = fund.getId() + "_ExportXML_" + dateFormat.format(date);
 		
 		writeToXMLFile(header, outputFileName);
@@ -109,6 +105,71 @@ public class XMLUtils {
 		
 		serviceMap.clear();
 	}
+	
+	
+	public void generateFundInfoXMLFiles(){
+		ArrayList<Fund> fundList = new ArrayList<Fund>();
+		try {
+			fundList = sfdcHandler.getFundsForFundInfoExport();
+		} catch (Exception e1) {
+			LOGGER.error("Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :" + e1.getCause() + e1.getMessage() + e1.getStackTrace());
+		}
+
+		try {
+			createXMLFileForFundExport(fundList);
+		} catch (Exception e) {
+			LOGGER.error("Error occured while generating File for Fund " +  e.getCause() + e.getMessage());
+		}
+	}
+	
+	private void createXMLFileForFundExport(ArrayList<Fund> fundList){
+		Date date = new Date() ;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss") ;
+		outputFileName =  "-sp_web_exportfundinfo-" + dateFormat.format(date);
+		
+		String header = XMLHandler.getFundInfoXMLHeader();
+		writeToXMLFileForFundsInfoExport(header, outputFileName);
+		
+		XMLHandler.getFundsXMLForFundsInfo(fundList, appConfig, outputFileName);
+		
+		String footer = XMLHandler.getXMLFooterForFundExport();
+		
+		writeToXMLFileForFundsInfoExport(footer, outputFileName);
+		
+	}
+	
+	
+	public void generateContactLevelServicesXMLFiles(){
+		XMLUtils xmlObj = new XMLUtils();
+		try {
+			sfdcHandler.populateData(null, xmlObj, serviceMap);
+		} catch (Exception e1) {
+			LOGGER.error("Error occured while retreiving Funds for Funds Info Export from Salesforce. Cause :" + e1.getCause() + e1.getMessage() + e1.getStackTrace());
+		}
+
+		try {
+			createXMLFileForContactLevelService(xmlObj);
+		} catch (Exception e) {
+			LOGGER.error("Error occured while generating File for Fund " +  e.getCause() + e.getMessage());
+		}
+	}
+	
+	private void createXMLFileForContactLevelService(XMLUtils xmlObj){
+		Date date = new Date() ;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss") ;
+		outputFileName =  "-sp_web_exportcontactlevelservices-" + dateFormat.format(date);
+		
+		String header = XMLHandler.getContactLevelServiceXMLHeader();
+		writeToXMLFileForContactLevelServiceExport(header, outputFileName);
+		
+		XMLHandler.getContactServicesForContactLevelService(xmlObj.csList, serviceMap, appConfig, outputFileName);
+		
+		String footer = XMLHandler.getXMLFooterForFundExport();
+		
+		writeToXMLFileForContactLevelServiceExport(footer, outputFileName);
+		
+	}
+	
 
 	private  void writeToXMLFile(String s, String fileName){
 		try {
@@ -117,8 +178,22 @@ public class XMLUtils {
 			LOGGER.error("Exception occur while writing to file : ", e);
 		}
 	}
+	
+	private void writeToXMLFileForFundsInfoExport(String s, String fileName){
+		try {
+			FileHandler.write(s, true, appConfig, fileName, appConfig.getFundInfoExportOutputDirectory());
+		} catch (Exception e) {
+			LOGGER.error("Exception occur while writing to file : ", e);
+		}
+	}
 
-
+	private void writeToXMLFileForContactLevelServiceExport(String s, String fileName){
+		try {
+			FileHandler.write(s, true, appConfig, fileName, appConfig.getContactLevelServicesOutputDirectory());
+		} catch (Exception e) {
+			LOGGER.error("Exception occur while writing to file : ", e);
+		}
+	}
 
 
 }

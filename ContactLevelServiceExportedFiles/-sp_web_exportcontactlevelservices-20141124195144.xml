@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fundinfoexport xmlns="http://schemas.angelogordon.com/website/2012/exports/funds/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.angelogordon.com/website/2012/exports/funds/1.0 exportfundinfo.xsd" version="0.90">
+<data>
+<services>
+	<service id="a05J0000005qtgUIAQ" slxService="Test 1" deliveryRule="H" contactid="003J000000wUgQSIA0" itgCategory=""/>
+</data>
+</fundinfoexport>

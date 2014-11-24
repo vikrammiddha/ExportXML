@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fundinfoexport xmlns="http://schemas.angelogordon.com/website/2012/exports/funds/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.angelogordon.com/website/2012/exports/funds/1.0 exportfundinfo.xsd" version="0.90">
+<metadata>
+<data>
+<fund code="COR4" id="a01J000000dK7bSIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund IV, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NCCM" id="a01J000000dK7bTIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Treasurer of the State of North Carolina - CMBS"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP8" id="a01J000000dK7bVIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VIII, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ASR3" id="a01J000000dK7bXIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Asia Realty Fund III, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RWNI" id="a01J000000dK7bYIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="RWNIH - AGC"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MVDB" id="a01J000000dK7bfIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, L.P. - Class B Interests"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KIR2" id="a01J000000dK7bgIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="K-AG Realty Fund II, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before April 4, 2014"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KSPP" id="a01J000000dK7bhIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Kaiser Permanente Group Trust"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCL6" id="a01J000000dK7bjIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan VI Plc"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ERC2" id="a01J000000dK7bkIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Europe Realty Co-Investment II, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DIFO" id="a01J000000dK7blIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Diversified Income Fund, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KSFH" id="a01J000000dK7bmIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Kaiser Foundation Hospitals Managed Account"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SHFI" id="a01J000000dK7bpIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Summer Hill Fixed Income AG, LLC"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EURH" id="a01J000000dK7bvIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Europe Realty Holdings, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="S4SP" id="a01J000000dK7bsIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="SC Alternative Strategy 4 SP"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EURE" id="a01J000000dK7btIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Europe Realty Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGRG" id="a01J000000dK7buIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Rio Grande FMC, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="R8KY" id="a01J000000dK7bwIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Realty Fund VIII (Cayman), L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="C3KY" id="a01J000000dK7bxIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund III (Cayman), L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SPAH" id="a01J000000dK7byIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Select Partners Advantage Holdings, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Tax reporting available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="STAR" id="a01J000000dK7c1IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="STAR"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Securitized Asset Recovery Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR8H" id="a01J000000dK7c2IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery VIII Holdings, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DIFM" id="a01J000000dK7c3IAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Diversified Income Master Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="TCDI" id="a01J000000dK7c4IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG TCDRS Diversified Income Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ERCO" id="a01J000000dK7c6IAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Europe Realty Co-Investment, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ELVO" id="a01J000000dK7c7IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Eleven Partners, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="OWLF" id="a01J000000dK7cAIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Opportunistic Whole Loan Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCL4" id="a01J000000dK7brIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan IV Plc"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NYCR" id="a01J000000dK7bbIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Centre Street Partnership, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCLV" id="a01J000000dK7bcIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan V Plc"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="N2SO" id="a01J000000dK7cGIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Net Lease Realty Fund II (SO), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQX4" id="a01J000000dK7cDIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Private Equity Partners IV (AIV), L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCLL" id="a01J000000dK7cFIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Swiss Capital Leveraged Loan Managed Account"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="STAH" id="a01J000000dK7cHIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="STAR"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Securitized Asset Recovery Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCAS" id="a01J000000dK7cIIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="SC Alternative Strategy 1 SP"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MVOB" id="a01J000000dK7cKIAS">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, Ltd. - Class B Shares"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AFDS" id="a01J000000dK7cLIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG FDS, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KRH2" id="a01J000000dK7cMIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="K-AG Realty Holdings II, LLC"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGL3" id="a01J000000dK7cNIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG MVP Plus SG III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGH3" id="a01J000000dK7cOIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGEP" id="a01J000000dK7cPIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="Energy"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Energy Partners, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="N3SO" id="a01J000000dK7cQIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Net Lease Realty Fund III (SO), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MANC" id="a01J000000dK7cUIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Cayman Fund Limited"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="BCOL" id="a01J000000dK7aOIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="PHS Bay Colony Fund, LP"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="PATR" id="a01J000000dK7aPIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="PHS Patriot Fund, LP"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP6" id="a01J000000dK7b7IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VI, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ASR1" id="a01J000000dK7bCIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NUTM" id="a01J000000dK7aFIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Nutmeg Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ASRH" id="a01J000000dK7bEIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NUT5" id="a01J000000dK7apIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Nutmeg Realty Partners V, LP"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP2" id="a01J000000dK7aqIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners II, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ARE2" id="a01J000000dK7bIIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty II Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP7" id="a01J000000dK7bJIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VII, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP3" id="a01J000000dK7asIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGCP" id="a01J000000dK7aIIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="A.G.C.P., L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR3E" id="a01J000000dK7auIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III Employee Inv Program, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP4" id="a01J000000dK7awIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery Partners IV, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="VRS1" id="a01J000000dK7bMIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="VAG Investors, LLC"/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before October 15, 2014"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NCRM" id="a01J000000dK7bOIAS">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Treasurer of the State of North Carolina - RMBS"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR2H" id="a01J000000dK7axIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners II Holdings, PLC"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR3H" id="a01J000000dK7ayIAC">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III Holdings, PLC"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR4H" id="a01J000000dK7b2IAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners IV Holdings, PLC"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NU4P" id="a01J000000dK7adIAC">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Nutmeg Realty Partners IV, LP"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SCL8" id="a01J000000fWKZDIA4">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan VIII Plc"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGCN" id="a01J000000azwmZIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG CNG Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRD1" id="a01J000000azwmcIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Commercial Real Estate Debt Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="C2AU" id="a01J000000azwmhIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Core Plus II (AU) Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="COEM" id="a01J000000azwmiIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Core Plus Realty Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="COR2" id="a01J000000azwmjIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="COR3" id="a01J000000azwmkIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CORE" id="a01J000000azwmmIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR1H" id="a01J000000azwmpIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG CRD Holdings, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRE1" id="a01J000000azwmqIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG CRED Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DCDO" id="a01J000000azwmtIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DCOF" id="a01J000000azwmuIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Fund, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DCSF" id="a01J000000azwmvIAA">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Master, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="DIFD" id="a01J000000azwmwIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Diversified Income Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ELEV" id="a01J000000azwmxIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Eleven Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGEQ" id="a01J000000azwmzIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Equity Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="GDPT" id="a01J000000azwn1IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Garden Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="PPIH" id="a01J000000azwn2IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PPIP"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG GECC PPIF Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="GLDB" id="a01J000000azwn3IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="LL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Global Debt Strategy Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="GLPE" id="a01J000000azwn4IAA">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Global Strategy Private Equity Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="GLRE" id="a01J000000azwn7IAA">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Global Strategy Real Estate Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KIRF" id="a01J000000azwnBIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG KIC Realty Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before April 4, 2014"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="KIRH" id="a01J000000azwnCIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG KIC Realty Holdings, LLC"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="LTSU" id="a01J000000azwnFIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Long-Term Super Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGMM" id="a01J000000azwnMIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG MM, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MVPM" id="a01J000000azwnOIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Mortgage Value Partners Master Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MVPD" id="a01J000000azwnQIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="MVPO" id="a01J000000azwnRIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGH2" id="a01J000000azwnSIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGHD" id="a01J000000azwnTIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGL2" id="a01J000000azwnUIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG MVP Plus SG II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SGLP" id="a01J000000azwnVIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG MVP Plus SG, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NLE1" id="a01J000000azwnWIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Net Lease Realty Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NET2" id="a01J000000azwnXIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="OFFC" id="a01J000000azwnbIAA">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Offshore Convertibles, Ltd."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NET3" id="a01J000000azwnYIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="NETL" id="a01J000000azwnZIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="NL"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQE3" id="a01J000000azwnjIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity III Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQE4" id="a01J000000azwnkIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity IV Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQT2" id="a01J000000azwnlIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity Partners II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQT3" id="a01J000000azwnmIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity Partners III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQR4" id="a01J000000azwnnIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity Partners IV(R), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="EQT4" id="a01J000000azwnoIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Private Equity Partners IV, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="REDD" id="a01J000000azwnsIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Real Estate Debt Investment Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT3" id="a01J000000azwnuIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund III, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT4" id="a01J000000azwnvIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund IV, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT9" id="a01J000000azwnwIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Realty Fund IX, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT5" id="a01J000000azwnyIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund V, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RL6E" id="a01J000000azwnzIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VI Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT6" id="a01J000000azwo0IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VI, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="R7TE" id="a01J000000azwo1IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VII (TE), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RL8A" id="a01J000000azwo7IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VIII (A), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RL7E" id="a01J000000azwo2IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VII Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT7" id="a01J000000azwo6IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VII, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RL8E" id="a01J000000azwo8IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VIII Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RLT8" id="a01J000000azwo9IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty Fund VIII, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RL5E" id="a01J000000azwoAIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Realty V Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="REDI" id="a01J000000azwoBIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG REDI Master Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before March 31, 2014"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="REDO" id="a01J000000azwoCIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="CMBS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG REDI, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SPAF" id="a01J000000azwoEIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Select Partners Advantage Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ADVA" id="a01J000000azwoGIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Super Advantage, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SILT" id="a01J000000azwoIIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Super Fund International Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="PFIC Statements will be available on request"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="INTL" id="a01J000000azwoJIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Super Fund International Partners, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="0"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SUPB" id="a01J000000azwoKIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Super Fund, L.P. - Class B Interests"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="TCDR" id="a01J000000azwoNIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RMBS/ABS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG TCDRS, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGS1" id="a01J000000azwoRIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AGA Global Strategy Partners LLC"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AS2O" id="a01J000000azwofIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="Asia Realty Fund II (SO), L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CHFC" id="a01J000000azwokIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="CHF Co-Investors, LLC"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AGAV" id="a01J000000azwlnIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Advantage Realty, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ASEM" id="a01J000000azwlxIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ASR2" id="a01J000000azwlyIAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty Fund II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="ARH2" id="a01J000000azwm1IAA">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="RE"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Asia Realty Holdings II, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="AREC" id="a01J000000azwmVIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Partners, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="RECH" id="a01J000000azwmDIAQ">
+<attributes>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="NAME" value="AG Capital Recovery Holdings, Ltd."/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CRP5" id="a01J000000azwmQIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery Partners V, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR6H" id="a01J000000azwmWIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery VI Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR7E" id="a01J000000azwmXIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery VII Employee Investment Program, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="CR7H" id="a01J000000azwmYIAQ">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="DD"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="NAME" value="AG Capital Recovery VII Holdings, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="PPIP" id="a01G000000EUohhIAD">
+<attributes>
+<attribute key="ITG_FUND_TYPE" value="PPIP"/>
+<attribute key="ITG_TAX_LINK" value="false"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYNC"/>
+<attribute key="NAME" value="AG GECC PPIF Master Fund, L.P."/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting"/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="SUPR" id="a01G000000D6aw7IAB">
+<attributes>
+<attribute key="FUND_EIN" value="13-3701947"/>
+<attribute key="ITG_FUND_TYPE" value="MS"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYN"/>
+<attribute key="NAME" value="AG Super Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+<fund code="PPID" id="a01G000000Dxc1TIAR">
+<attributes>
+<attribute key="FUND_EIN" value="27-0604244"/>
+<attribute key="ITG_FUND_TYPE" value="PPIP"/>
+<attribute key="ITG_TAX_LINK" value="true"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYNC"/>
+<attribute key="NAME" value="AG GECC Public-Private Investment Fund, L.P."/>
+<attribute key="ITG_ONWEBSITE" value="true"/>
+</attributes>
+</fund>
+</data>
+</fundinfoexport>

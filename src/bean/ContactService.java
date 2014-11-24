@@ -11,7 +11,15 @@ public class ContactService {
 	private String investorAccountCode;
 	private String accountId;
 	private String service;
+	private String deliveryRule;
 	
+	
+	public String getDeliveryRule() {
+		return deliveryRule;
+	}
+	public void setDeliveryRule(String deliveryRule) {
+		this.deliveryRule = deliveryRule;
+	}
 	public String getService() {
 		return service;
 	}
