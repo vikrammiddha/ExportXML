@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<fundinfoexport xmlns="http://schemas.angelogordon.com/website/2012/exports/funds/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.angelogordon.com/website/2012/exports/funds/1.0 exportfundinfo.xsd" version="0.90">
+<metadata>
+<context>
+<item name="generatedBy">MSSQL Stored Procedure</item>
+<item name="generatedBy2">sp_web_exportfundinfo</item>
+<item name="generatedByVersion">0.90</item>
+<item name="sequenceNumber">00025005</item>
+<item name="serverMachine">AGSQL-SQL\AGSQL</item>
+<item name="executeDateTime">2014-07-28T15:15:46.9476129Z</item>
+<item name="executeUser">NYC\MGroves</item>
+<item name="executeHost">MGROVES-VM01</item>
+<item name="localOutputFileName">00025005-sp_web_exportfundinfo-20140728151546.xml</item>
+<item name="localOutputFilePath">\\data1\Apps\ITG\TransferDEV\Out</item>
+<item name="localOutputFileSize">86421</item>
+</context>
+<parameters>
+<parameter name="writefile" value="1"/>
+<parameter name="autocommit" value="1"/>
+<parameter name="outputPath" value="\\data1\Apps\ITG\TransferDEV\Out"/>
+</parameters>
+</metadata>
+<data>
+<funds count="160">
+<fund seq="1" code="ADVA" id="Q6UJ9A0039K1" csum="593934508">
+<attributes>
+<attribute key="FUND_EIN" value="13-4084184" csum="-48206794"/>
+<attribute key="ITG_FAMILY" value="AG Super Advantage, L.P." csum="-1210506817"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Super Advantage, L.P." csum="97185149"/>
+</attributes>
+</fund>
+<fund seq="2" code="AFDS" id="Q6UJ9B032M1B" csum="324044462">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG FDS, L.P." csum="-1548145666"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG FDS, L.P." csum="296412988"/>
+</attributes>
+</fund>
+<fund seq="3" code="AGAV" id="Q6UJ9A0039K3" csum="593935083">
+<attributes>
+<attribute key="FUND_EIN" value="13-4026743" csum="-47559951"/>
+<attribute key="ITG_FAMILY" value="AG Advantage Realty, L.P." csum="-1397016048"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Advantage Realty, L.P." csum="514389714"/>
+</attributes>
+</fund>
+<fund seq="4" code="AGCN" id="Q6UJ9A0039JL" csum="593935395">
+<attributes>
+<attribute key="FUND_EIN" value="13-4033804" csum="-47508042"/>
+<attribute key="ITG_FAMILY" value="AG CNG Fund, L.P." csum="1623665386"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG CNG Fund, L.P." csum="-757799384"/>
+</attributes>
+</fund>
+<fund seq="5" code="AGCP" id="Q6UJ9A0039IQ" csum="593936109">
+<attributes>
+<attribute key="FUND_EIN" value="13-3670917" csum="-95476571"/>
+<attribute key="ITG_FAMILY" value="A.G.C.P., L.P." csum="-1702419289"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="A.G.C.P., L.P." csum="680847461"/>
+</attributes>
+</fund>
+<fund seq="6" code="AGEP" id="Q6UJ9B037HYB" csum="324386749">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Energy Partners" csum="-1752607967"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Energy Partners, L.P." csum="-1316265288"/>
+</attributes>
+</fund>
+<fund seq="7" code="AGEQ" id="Q6UJ9A0039K6" csum="593935100">
+<attributes>
+<attribute key="FUND_EIN" value="13-4128919" csum="-46488405"/>
+<attribute key="ITG_FAMILY" value="AG Equity Partners, L.P." csum="60379097"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NICDS" csum="-295977539"/>
+<attribute key="NAME" value="AG Equity Partners, L.P." csum="-1316322533"/>
+</attributes>
+</fund>
+<fund seq="8" code="AGMM" id="Q6UJ9A0039JC" csum="593935408">
+<attributes>
+<attribute key="FUND_EIN" value="13-3960819" csum="-88201813"/>
+<attribute key="ITG_FAMILY" value="AG MM, L.P." csum="767376360"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG MM, L.P." csum="-1615923414"/>
+</attributes>
+</fund>
+<fund seq="9" code="AGRG" id="Q6UJ9B0341X2" csum="324085978">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Rio Grande FMC" csum="-1624177856"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Rio Grande FMC, L.P." csum="-796665112"/>
+</attributes>
+</fund>
+<fund seq="10" code="AGS1" id="Q6UJ9A01L7VB" csum="587809212">
+<attributes>
+<attribute key="ITG_FAMILY" value="AGA Global Strategy Partners LLC" csum="769496497"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AGA Global Strategy Partners LLC" csum="-1613866637"/>
+</attributes>
+</fund>
+<fund seq="11" code="ANDV" id="Q6UJ9B0309MK" csum="324383291">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Andvari Fund, L.P." csum="77373143"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Andvari Fund, L.P." csum="-1232121323"/>
+</attributes>
+</fund>
+<fund seq="12" code="ARE2" id="Q6UJ9A01J4ZD" csum="588212671">
+<attributes>
+<attribute key="FUND_EIN" value="27-2499565" csum="-77481757"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund II" csum="-1032336337"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty II Employee Investment Program, L.P." csum="1611956381"/>
+</attributes>
+</fund>
+<fund seq="13" code="AREC" id="Q6UJ9A0039JT" csum="593930446">
+<attributes>
+<attribute key="FUND_EIN" value="13-4089569" csum="-48187173"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners, L.P." csum="1200114224"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners, L.P." csum="-174356750"/>
+</attributes>
+</fund>
+<fund seq="14" code="ARH2" id="Q6UJ9A01J4ZO" csum="588212703">
+<attributes>
+<attribute key="FUND_EIN" value="68-0676587" csum="-112244658"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund II" csum="-1032336337"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Holdings II, L.P." csum="1471960597"/>
+</attributes>
+</fund>
+<fund seq="15" code="AS2O" id="Q6UJ9A01WTGR" csum="588542930">
+<attributes>
+<attribute key="FUND_EIN" value="99-0360445" csum="-115463811"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund II" csum="-1032336337"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="Asia Realty Fund II (SO), L.P." csum="1848985582"/>
+</attributes>
+</fund>
+<fund seq="16" code="ASEM" id="Q6UJ9A019OVV" csum="595318240">
+<attributes>
+<attribute key="FUND_EIN" value="83-0469873" csum="-110185135"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund" csum="1679726453"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Employee Investment Program, L.P." csum="-1603391793"/>
+</attributes>
+</fund>
+<fund seq="17" code="ASR1" id="Q6UJ9A017SKS" csum="594807228">
+<attributes>
+<attribute key="FUND_EIN" value="98-0517266" csum="-109486241"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund" csum="1679726453"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Fund, L.P." csum="-445057668"/>
+</attributes>
+</fund>
+<fund seq="18" code="ASR2" id="Q6UJ9A01CEK5" csum="587296735">
+<attributes>
+<attribute key="FUND_EIN" value="46-0521009" csum="-109429266"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund II" csum="-1032336337"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Fund II, L.P." csum="-1075930073"/>
+</attributes>
+</fund>
+<fund seq="19" code="ASR3" id="Q6UJ9A01UPF3" csum="588657342">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund III" csum="-1329852916"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Fund III, L.P." csum="-1666426907"/>
+</attributes>
+</fund>
+<fund seq="20" code="ASRH" id="Q6UJ9A01CZWR" csum="587236821">
+<attributes>
+<attribute key="FUND_EIN" value="98-0508966" csum="-109534113"/>
+<attribute key="ITG_FAMILY" value="AG Asia Realty Fund" csum="1679726453"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Asia Realty Holdings, L.P." csum="1180070736"/>
+</attributes>
+</fund>
+<fund seq="21" code="BCOL" id="Q6UJ9A0039J1" csum="593923889">
+<attributes>
+<attribute key="FUND_EIN" value="13-3887448" csum="-90154502"/>
+<attribute key="ITG_FAMILY" value="PHS Bay Colony Fund, L.P." csum="2137039294"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="PHS Bay Colony Fund, LP" csum="42426399"/>
+</attributes>
+</fund>
+<fund seq="22" code="C2AU" id="Q6UJ9A01CEJX" csum="587278424">
+<attributes>
+<attribute key="FUND_EIN" value="45-0548063" csum="-109269625"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund II" csum="-1100637802"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus II (AU) Holdings, L.P." csum="-103076057"/>
+</attributes>
+</fund>
+<fund seq="23" code="C2EM" id="Q6UJ9A019OVT" csum="595301568">
+<attributes>
+<attribute key="FUND_EIN" value="37-1526348" csum="-126202146"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund II" csum="-1100637802"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus II Employee Investment Program, L.P." csum="1344263917"/>
+</attributes>
+</fund>
+<fund seq="24" code="C3EM" id="Q6UJ9A01YF61" csum="588997520">
+<attributes>
+<attribute key="FUND_EIN" value="27-3687160" csum="-96445210"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund III" csum="1905874331"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund III Employee Investment Program, L.P." csum="1989361981"/>
+</attributes>
+</fund>
+<fund seq="25" code="C3KY" id="Q6UJ9B02UWRN" csum="321261716">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund III" csum="1905874331"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund III (Cayman), L.P." csum="1968689609"/>
+</attributes>
+</fund>
+<fund seq="26" code="C4ER" id="Q6UJ9A00B74J" csum="588738879">
+<attributes>
+<attribute key="FUND_EIN" value="59-3767963" csum="-94481253"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners IV" csum="-90783225"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners IV (E) L.P." csum="1259064072"/>
+</attributes>
+</fund>
+<fund seq="27" code="C5ER" id="Q6UJ9A016Z79" csum="594912271">
+<attributes>
+<attribute key="FUND_EIN" value="20-3744720" csum="-94606687"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners V" csum="-2032836367"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners V(E), L.P." csum="862053473"/>
+</attributes>
+</fund>
+<fund seq="28" code="CHFC" id="Q6UJ9A01SG92" csum="588318622">
+<attributes>
+<attribute key="FUND_EIN" value="27-2115026" csum="-80118368"/>
+<attribute key="ITG_FAMILY" value="CHF Co-Investors, LLC" csum="-285664490"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="CHF Co-Investors, LLC" csum="1558894548"/>
+</attributes>
+</fund>
+<fund seq="29" code="COEM" id="Q6UJ9A00KGPL" csum="588869184">
+<attributes>
+<attribute key="FUND_EIN" value="92-0184430" csum="-114267901"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund" csum="1065965136"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Employee Investment Program, L.P." csum="-1304717389"/>
+</attributes>
+</fund>
+<fund seq="30" code="CONF" id="Q6UJ9B03AP5Q" csum="321026603">
+<attributes>
+<attribute key="ITG_FAMILY" value="Investor Conference" csum="374728206"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting Provided" csum="-2080240229"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="" csum="-300848466"/>
+<attribute key="NAME" value="Investor Conference" csum="-1538905396"/>
+</attributes>
+</fund>
+<fund seq="31" code="COR2" id="Q6UJ9A00YQCG" csum="587865343">
+<attributes>
+<attribute key="FUND_EIN" value="16-1764039" csum="-128029298"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund II" csum="-1100637802"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund II, L.P." csum="111316594"/>
+</attributes>
+</fund>
+<fund seq="32" code="COR3" id="Q6UJ9A01F2MW" csum="587408382">
+<attributes>
+<attribute key="FUND_EIN" value="27-2996244" csum="-72265790"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund III" csum="1905874331"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund III, L.P." csum="191722174"/>
+</attributes>
+</fund>
+<fund seq="33" code="COR4" id="Q6UJ9A01XCSN" csum="588917865">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund IV" csum="-1100637815"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund IV, L.P." csum="430083698"/>
+</attributes>
+</fund>
+<fund seq="34" code="CORE" id="Q6UJ9A004QX3" csum="593952968">
+<attributes>
+<attribute key="FUND_EIN" value="51-0434947" csum="-110402377"/>
+<attribute key="ITG_FAMILY" value="AG Core Plus Realty Fund" csum="1065965136"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Core Plus Realty Fund, L.P." csum="-1071422787"/>
+</attributes>
+</fund>
+<fund seq="35" code="CR1H" id="Q6UJ9A01J4UJ" csum="588202341">
+<attributes>
+<attribute key="FUND_EIN" value="98-0573575" csum="-109111220"/>
+<attribute key="ITG_FAMILY" value="AG Commercial Real Estate Debt Fund" csum="-2064320581"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG CRD Holdings, L.P." csum="1694647520"/>
+</attributes>
+</fund>
+<fund seq="36" code="CR2H" id="Q6UJ9A00822E" csum="594364069">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners II Holdings, PLC" csum="-1170107287"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners II Holdings, PLC" csum="139614379"/>
+</attributes>
+</fund>
+<fund seq="37" code="CR3E" id="Q6UJ9A0052DW" csum="593506712">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners III Employee Investment Program, L.P." csum="-247961168"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III Employee Inv Program, L.P." csum="-688377664"/>
+</attributes>
+</fund>
+<fund seq="38" code="CR3H" id="Q6UJ9A00822F" csum="594364037">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners III Holdings, PLC" csum="-578441658"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III Holdings, PLC" csum="1872126596"/>
+</attributes>
+</fund>
+<fund seq="39" code="CR4E" id="Q6UJ9A009CUA" csum="594227592">
+<attributes>
+<attribute key="FUND_EIN" value="54-2089103" csum="-81740554"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners IV" csum="-90783225"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery IV Employee Investment Program, L.P." csum="-1191780968"/>
+</attributes>
+</fund>
+<fund seq="40" code="CR4H" id="Q6UJ9A00BA13" csum="588280485">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners IV" csum="-90783225"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners IV Holdings, PLC" csum="391272619"/>
+</attributes>
+</fund>
+<fund seq="41" code="CR5E" id="Q6UJ9A016CXF" csum="594820328">
+<attributes>
+<attribute key="FUND_EIN" value="20-3880773" csum="-90166542"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners V" csum="-2032836367"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners V Employee Investment Program, L.P." csum="983968714"/>
+</attributes>
+</fund>
+<fund seq="42" code="CR6E" id="Q6UJ9A01I2DO" csum="588001352">
+<attributes>
+<attribute key="FUND_EIN" value="26-1556608" csum="-126006385"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VI" csum="-90782744"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VI Employee Investment Program, L.P." csum="2030383798"/>
+</attributes>
+</fund>
+<fund seq="43" code="CR6H" id="Q6UJ9A01I3A8" csum="587997749">
+<attributes>
+<attribute key="FUND_EIN" value="98-0562002" csum="-109179589"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VI" csum="-90782744"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery VI Holdings, L.P." csum="-2094531903"/>
+</attributes>
+</fund>
+<fund seq="44" code="CR7E" id="Q6UJ9A01OR1W" csum="588006616">
+<attributes>
+<attribute key="FUND_EIN" value="26-4216196" csum="-49722351"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VII" csum="1051521663"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery VII Employee Investment Program, L.P." csum="1544857502"/>
+</attributes>
+</fund>
+<fund seq="45" code="CR7H" id="Q6UJ9A01OFR9" csum="588079413">
+<attributes>
+<attribute key="FUND_EIN" value="98-0611707" csum="-112641474"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VII" csum="1051521663"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery VII Holdings, L.P." csum="-750144264"/>
+</attributes>
+</fund>
+<fund seq="46" code="CR8H" id="Q6UJ9B0387BT" csum="324888341">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VIII" csum="2098195203"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery VIII Holdings, L.P." csum="-710060179"/>
+</attributes>
+</fund>
+<fund seq="47" code="CRD1" id="Q6UJ9A01FM0S" csum="587510492">
+<attributes>
+<attribute key="FUND_EIN" value="26-1234106" csum="-133469055"/>
+<attribute key="ITG_FAMILY" value="AG Commercial Real Estate Debt Fund" csum="-2064320581"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Commercial Real Estate Debt Fund, L.P." csum="731389724"/>
+</attributes>
+</fund>
+<fund seq="48" code="CRE1" id="Q6UJ9A01JEON" csum="587746332">
+<attributes>
+<attribute key="FUND_EIN" value="26-2239538" csum="-83117889"/>
+<attribute key="ITG_FAMILY" value="AG Commercial Real Estate Debt Fund" csum="-2064320581"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG CRED Employee Investment Program, L.P." csum="-499819333"/>
+</attributes>
+</fund>
+<fund seq="49" code="CRP2" id="Q6UJ9A0039KE" csum="593922559">
+<attributes>
+<attribute key="FUND_EIN" value="52-2318087" csum="-82203276"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners II, L.P." csum="989180395"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners II, L.P." csum="-1998160599"/>
+</attributes>
+</fund>
+<fund seq="50" code="CRP3" id="Q6UJ9A003XT2" csum="593527182">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners III, L.P." csum="1563528132"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners III, L.P." csum="-282966266"/>
+</attributes>
+</fund>
+<fund seq="51" code="CRP4" id="Q6UJ9A005CPU" csum="593966073">
+<attributes>
+<attribute key="FUND_EIN" value="54-2089101" csum="-81740556"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners IV" csum="-90783225"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners IV, L.P." csum="-1746502359"/>
+</attributes>
+</fund>
+<fund seq="52" code="CRP5" id="Q6UJ9A00BH9J" csum="588311304">
+<attributes>
+<attribute key="FUND_EIN" value="20-3744571" csum="-94607120"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners V" csum="-2032836367"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners V, L.P." csum="1637498507"/>
+</attributes>
+</fund>
+<fund seq="53" code="CRP6" id="Q6UJ9A0161LU" csum="594743291">
+<attributes>
+<attribute key="FUND_EIN" value="26-1556523" csum="-126007132"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VI" csum="-90782744"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VI, L.P." csum="2028371240"/>
+</attributes>
+</fund>
+<fund seq="54" code="CRP7" id="Q6UJ9A01JGOJ" csum="587754762">
+<attributes>
+<attribute key="FUND_EIN" value="26-4216120" csum="-49722201"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VII" csum="1051521663"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VII, L.P." csum="-282966247"/>
+</attributes>
+</fund>
+<fund seq="55" code="CRP8" id="Q6UJ9A01T73O" csum="588321109">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners VIII" csum="2098195203"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners VIII, L.P." csum="-1822301184"/>
+</attributes>
+</fund>
+<fund seq="56" code="CRPE" id="Q6UJ9A0053D6" csum="593502648">
+<attributes>
+<attribute key="FUND_EIN" value="52-2330088" csum="-82104965"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Partners II Employee Investment Program, L.P." csum="-887681420"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Partners II Employee Investment Program, LP" csum="-936175696"/>
+</attributes>
+</fund>
+<fund seq="57" code="DCDO" id="Q6UJ9A012ZLU" csum="594665410">
+<attributes>
+<attribute key="FUND_EIN" value="56-2670596" csum="-78698399"/>
+<attribute key="ITG_FAMILY" value="AG Diversified Credit Strategies Fund" csum="1915580956"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Fund, L.P." csum="-1938897255"/>
+</attributes>
+</fund>
+<fund seq="58" code="DCOF" id="Q6UJ9A012ZLV" csum="594665291">
+<attributes>
+<attribute key="FUND_EIN" value="98-0544910" csum="-109288407"/>
+<attribute key="ITG_FAMILY" value="AG Diversified Credit Strategies Fund" csum="1915580956"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Fund, Ltd." csum="-1938907175"/>
+</attributes>
+</fund>
+<fund seq="59" code="DCSF" id="Q6UJ9A01FTJ8" csum="587546219">
+<attributes>
+<attribute key="FUND_EIN" value="98-0543560" csum="-109307815"/>
+<attribute key="ITG_FAMILY" value="AG Diversified Credit Strategies Fund" csum="1915580956"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="NAME" value="AG Diversified Credit Strategies Master, L.P." csum="-522522570"/>
+</attributes>
+</fund>
+<fund seq="60" code="DIFD" id="Q6UJ9A79V1J7" csum="613639625">
+<attributes>
+<attribute key="FUND_EIN" value="80-0796594" csum="-112113483"/>
+<attribute key="ITG_FAMILY" value="AG Diversified Income Fund" csum="1694230681"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Diversified Income Fund, L.P." csum="158863363"/>
+</attributes>
+</fund>
+<fund seq="61" code="DIFM" id="Q6UJ9B02WFXY" csum="321192224">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Diversified Income Fund" csum="1694230681"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Diversified Income Master Fund, L.P." csum="175234112"/>
+</attributes>
+</fund>
+<fund seq="62" code="DIFO" id="Q6UJ9B02VR7U" csum="321203938">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Diversified Income Fund" csum="1694230681"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Diversified Income Fund, Ltd." csum="158878019"/>
+</attributes>
+</fund>
+<fund seq="63" code="ELEV" id="Q6UJ9A0039IN" csum="593949819">
+<attributes>
+<attribute key="FUND_EIN" value="13-3406239" csum="-93827189"/>
+<attribute key="ITG_FAMILY" value="AG Eleven Partners" csum="-1750527919"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MQYN" csum="-300552592"/>
+<attribute key="NAME" value="AG Eleven Partners, L.P." csum="-1047837957"/>
+</attributes>
+</fund>
+<fund seq="64" code="ELVO" id="Q6UJ9B0352QA" csum="324033954">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Eleven Partners" csum="-1750527919"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MQYN" csum="-300552592"/>
+<attribute key="NAME" value="AG Eleven Partners, Ltd." csum="-1047848005"/>
+</attributes>
+</fund>
+<fund seq="65" code="EQE2" id="Q6UJ9A009CU7" csum="594236047">
+<attributes>
+<attribute key="FUND_EIN" value="56-2353464" csum="-81978989"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners II" csum="1147205244"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners II Employee Investment Program, L.P." csum="-1892637176"/>
+</attributes>
+</fund>
+<fund seq="66" code="EQE3" id="Q6UJ9A014VB9" csum="595006830">
+<attributes>
+<attribute key="FUND_EIN" value="20-3423324" csum="-93708635"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners III" csum="-774919372"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity III Employee Investment Program, L.P." csum="-1438661856"/>
+</attributes>
+</fund>
+<fund seq="67" code="EQE4" id="Q6UJ9A01A948" csum="587502457">
+<attributes>
+<attribute key="FUND_EIN" value="26-1861639" csum="-122799170"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners IV" csum="1147205219"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity IV Employee Investment Program, L.P." csum="1469422547"/>
+</attributes>
+</fund>
+<fund seq="68" code="EQR4" id="Q6UJ9A01GQQR" csum="587493801">
+<attributes>
+<attribute key="FUND_EIN" value="38-3764383" csum="-94474726"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners IV" csum="1147205219"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners IV(R), L.P." csum="1748536652"/>
+</attributes>
+</fund>
+<fund seq="69" code="EQT2" id="Q6UJ9A005918" csum="593532783">
+<attributes>
+<attribute key="FUND_EIN" value="05-0538891" csum="-109337291"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners II" csum="1147205244"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners II, L.P." csum="-329741539"/>
+</attributes>
+</fund>
+<fund seq="70" code="EQT3" id="Q6UJ9A00O00O" csum="588906782">
+<attributes>
+<attribute key="FUND_EIN" value="20-3379662" csum="-98583581"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners III" csum="-774919372"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners III, L.P." csum="-1530059712"/>
+</attributes>
+</fund>
+<fund seq="71" code="EQT4" id="Q6UJ9A01A947" csum="587502233">
+<attributes>
+<attribute key="FUND_EIN" value="38-3764381" csum="-94474728"/>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners IV" csum="1147205219"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners IV, L.P." csum="-212301027"/>
+</attributes>
+</fund>
+<fund seq="72" code="EQX4" id="Q6UJ9B038BYL" csum="324684009">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Private Equity Partners IV" csum="1147205219"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="NI" csum="-300847609"/>
+<attribute key="NAME" value="AG Private Equity Partners IV (AIV), L.P." csum="677210139"/>
+</attributes>
+</fund>
+<fund seq="73" code="ERCO" id="Q6UJ9B03B9MM" csum="321383986">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Europe Realty Fund" csum="1238337027"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013" csum="-1981615098"/>
+<attribute key="NAME" value="AG Europe Realty Co-Investment, L.P." csum="806720789"/>
+</attributes>
+</fund>
+<fund seq="74" code="EURE" id="Q6UJ9B0339KF" csum="324464280">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Europe Realty Fund" csum="1238337027"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013" csum="-1981615098"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Europe Realty Fund, L.P." csum="-1823136659"/>
+</attributes>
+</fund>
+<fund seq="75" code="EURH" id="Q6UJ9B037NYA" csum="324373733">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Europe Realty Fund" csum="1238337027"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No Tax Reporting in 2013" csum="-1981615098"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Europe Realty Holdings, L.P." csum="-1756953219"/>
+</attributes>
+</fund>
+<fund seq="76" code="GDPT" id="Q6UJ9A018561" csum="595420633">
+<attributes>
+<attribute key="FUND_EIN" value="20-4581000" csum="-42975871"/>
+<attribute key="ITG_FAMILY" value="AG Garden Partners, L.P." csum="1939490841"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Garden Partners, L.P." csum="-1047952165"/>
+</attributes>
+</fund>
+<fund seq="77" code="GLDB" id="Q6UJ9A01NEX4" csum="587989727">
+<attributes>
+<attribute key="FUND_EIN" value="26-3466220" csum="-93433945"/>
+<attribute key="ITG_FAMILY" value="AG Global Debt Strategy Partners, L.P." csum="1096690929"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Global Debt Strategy Partners, L.P." csum="-213000141"/>
+</attributes>
+</fund>
+<fund seq="78" code="GLPE" id="Q6UJ9A01L2HD" csum="587818136">
+<attributes>
+<attribute key="FUND_EIN" value="26-2931671" csum="-71615498"/>
+<attribute key="ITG_FAMILY" value="AG Global Strategy Private Equity Partners, L.P." csum="-892539205"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="NAME" value="AG Global Strategy Private Equity Partners, L.P." csum="2027889273"/>
+</attributes>
+</fund>
+<fund seq="79" code="GLRE" id="Q6UJ9A01L4TZ" csum="587798872">
+<attributes>
+<attribute key="FUND_EIN" value="26-2931604" csum="-71615613"/>
+<attribute key="ITG_FAMILY" value="AG Global Strategy Real Estate Partners, L.P." csum="512940849"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="NAME" value="AG Global Strategy Real Estate Partners, L.P." csum="-1400825869"/>
+</attributes>
+</fund>
+<fund seq="80" code="INTL" id="Q6UJ9A0039IP" csum="593901201">
+<attributes>
+<attribute key="FUND_EIN" value="98-0180223" csum="-114282726"/>
+<attribute key="ITG_FAMILY" value="AG Super Fund International" csum="-262414708"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Super Fund International Partners, L.P." csum="-1863793587"/>
+</attributes>
+</fund>
+<fund seq="81" code="JRGR" id="Q6UJ9A01KNJP" csum="587819199">
+<attributes>
+<attribute key="ITG_FAMILY" value="JRG Reinsurance Company Ltd." csum="224709192"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="JRG Reinsurance Company, Ltd." csum="-214945675"/>
+</attributes>
+</fund>
+<fund seq="82" code="JRIC" id="Q6UJ9A01KNJL" csum="587819406">
+<attributes>
+<attribute key="ITG_FAMILY" value="James River Insurance Company" csum="927715634"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="James River Insurance Company" csum="-2057822736"/>
+</attributes>
+</fund>
+<fund seq="83" code="KIR2" id="Q6UJ9B032H6V" csum="324042479">
+<attributes>
+<attribute key="ITG_FAMILY" value="K-AG Realty Holdings II" csum="-1351116142"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before April 4, 2014" csum="1618387528"/>
+<attribute key="NAME" value="K-AG Realty Fund II, L.P." csum="1975175464"/>
+</attributes>
+</fund>
+<fund seq="84" code="KIRF" id="Q6UJ9A01UT2L" csum="588692283">
+<attributes>
+<attribute key="FUND_EIN" value="27-1557829" csum="-126003793"/>
+<attribute key="ITG_FAMILY" value="AG KIC Realty Holdings" csum="194613748"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before April 4, 2014" csum="1618387528"/>
+<attribute key="NAME" value="AG KIC Realty Fund, L.P." csum="-464332995"/>
+</attributes>
+</fund>
+<fund seq="85" code="KIRH" id="Q6UJ9A01UT2K" csum="588692293">
+<attributes>
+<attribute key="FUND_EIN" value="27-1557829" csum="-126003793"/>
+<attribute key="ITG_FAMILY" value="AG KIC Realty Holdings" csum="194613748"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG KIC Realty Holdings, LLC" csum="1175424467"/>
+</attributes>
+</fund>
+<fund seq="86" code="KRH2" id="Q6UJ9B032M1K" csum="324022943">
+<attributes>
+<attribute key="ITG_FAMILY" value="K-AG Realty Holdings II" csum="-1351116142"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="K-AG Realty Holdings II, LLC" csum="-261766349"/>
+</attributes>
+</fund>
+<fund seq="87" code="KSFH" id="Q6UJ9B031I43" csum="324235653">
+<attributes>
+<attribute key="FUND_EIN" value="xxx" csum="438002267"/>
+<attribute key="ITG_FAMILY" value="Kaiser Foundation Hospitals" csum="1109158697"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Kaiser Foundation Hospitals Managed Account" csum="-64858805"/>
+</attributes>
+</fund>
+<fund seq="88" code="KSPP" id="Q6UJ9B036RIP" csum="324385741">
+<attributes>
+<attribute key="ITG_FAMILY" value="Kaiser Permanente Group Trust" csum="-1409109324"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Kaiser Permanente Group Trust" csum="504462966"/>
+</attributes>
+</fund>
+<fund seq="89" code="LTSU" id="Q6UJ9A0039J6" csum="593918360">
+<attributes>
+<attribute key="FUND_EIN" value="13-3922149" csum="-88470277"/>
+<attribute key="ITG_FAMILY" value="AG Long-Term Super Fund, L.P." csum="-216528141"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Long-Term Super Fund, L.P." csum="1091290673"/>
+</attributes>
+</fund>
+<fund seq="90" code="MANC" id="Q6UJ9B034NCC" csum="324403982">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Cayman Fund Limited" csum="1261642063"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Cayman Fund Limited" csum="-115282547"/>
+</attributes>
+</fund>
+<fund seq="91" code="MVDB" id="Q6UJ9B030YXO" csum="324239215">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Mortgage Value Partners" csum="-360087152"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="" csum="1308009200"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, L.P. - Class B Interests" csum="253170389"/>
+</attributes>
+</fund>
+<fund seq="92" code="MVOB" id="Q6UJ9B030YYZ" csum="324239247">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Mortgage Value Partners" csum="-360087152"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="" csum="1308009200"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, Ltd. - Class B Shares" csum="-91717915"/>
+</attributes>
+</fund>
+<fund seq="93" code="MVPD" id="Q6UJ9A01LC8J" csum="588168825">
+<attributes>
+<attribute key="FUND_EIN" value="26-3677691" csum="-95462634"/>
+<attribute key="ITG_FAMILY" value="AG Mortgage Value Partners" csum="-360087152"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, L.P." csum="16147050"/>
+</attributes>
+</fund>
+<fund seq="94" code="MVPM" id="Q6UJ9A01S98N" csum="588652080">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Mortgage Value Partners" csum="-360087152"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="NAME" value="AG Mortgage Value Partners Master Fund, L.P." csum="848868990"/>
+</attributes>
+</fund>
+<fund seq="95" code="MVPO" id="Q6UJ9A01PI8O" csum="588389922">
+<attributes>
+<attribute key="FUND_EIN" value="98-0621443" csum="-112576134"/>
+<attribute key="ITG_FAMILY" value="AG Mortgage Value Partners" csum="-360087152"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Mortgage Value Partners, Ltd." csum="16137002"/>
+</attributes>
+</fund>
+<fund seq="96" code="N2SO" id="Q6UJ9B02V7I1" csum="321117426">
+<attributes>
+<attribute key="FUND_EIN" value="32-0353448" csum="-115533349"/>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund II" csum="71724097"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="Net Lease Realty Fund II (SO), L.P." csum="543599560"/>
+</attributes>
+</fund>
+<fund seq="97" code="N3SO" id="Q6UJ9B037KK8" csum="324345698">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund III" csum="-744093472"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="Net Lease Realty Fund III (SO), L.P." csum="1730786998"/>
+</attributes>
+</fund>
+<fund seq="98" code="NCCM" id="Q6UJ9A01NIF5" csum="588006320">
+<attributes>
+<attribute key="ITG_FAMILY" value="Treasurer of the State of North Carolina - CMBS" csum="1474933327"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Treasurer of the State of North Carolina - CMBS" csum="-436568435"/>
+</attributes>
+</fund>
+<fund seq="99" code="NCRM" id="Q6UJ9A01NIF4" csum="588006064">
+<attributes>
+<attribute key="ITG_FAMILY" value="Treasurer of the State of North Carolina - RMBS" csum="1474863695"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Treasurer of the State of North Carolina - RMBS" csum="-436506995"/>
+</attributes>
+</fund>
+<fund seq="100" code="NET2" id="Q6UJ9A01BTLV" csum="587307151">
+<attributes>
+<attribute key="FUND_EIN" value="27-0269334" csum="-116474190"/>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund II" csum="71724097"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund II, L.P." csum="-786911865"/>
+</attributes>
+</fund>
+<fund seq="101" code="NET3" id="Q6UJ9A01VXYQ" csum="588598782">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund III" csum="-744093472"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund III, L.P." csum="1892634083"/>
+</attributes>
+</fund>
+<fund seq="102" code="NETL" id="Q6UJ9A0109NF" csum="594889713">
+<attributes>
+<attribute key="FUND_EIN" value="02-0791135" csum="-112116586"/>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund" csum="1660089455"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Net Lease Realty Fund, L.P." csum="-8513249"/>
+</attributes>
+</fund>
+<fund seq="103" code="NLE1" id="Q6UJ9A01BTLI" csum="587305324">
+<attributes>
+<attribute key="FUND_EIN" value="02-0791139" csum="-112116582"/>
+<attribute key="ITG_FAMILY" value="AG Net Lease Realty Fund" csum="1660089455"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Net Lease Realty Employee Investment Program, L.P." csum="-1848754167"/>
+</attributes>
+</fund>
+<fund seq="104" code="NU4P" id="Q6UJ9A0039JN" csum="593910125">
+<attributes>
+<attribute key="FUND_EIN" value="13-4037510" csum="-47490910"/>
+<attribute key="ITG_FAMILY" value="Nutmeg Realty Partners IV, L.P." csum="432853931"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="Nutmeg Realty Partners IV, LP" csum="400673901"/>
+</attributes>
+</fund>
+<fund seq="105" code="NUT5" id="Q6UJ9A0039KD" csum="593911464">
+<attributes>
+<attribute key="FUND_EIN" value="13-4159895" csum="-46287577"/>
+<attribute key="ITG_FAMILY" value="Nutmeg Realty Partners V, L.P." csum="-800430995"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="Nutmeg Realty Partners V, LP" csum="-785888550"/>
+</attributes>
+</fund>
+<fund seq="106" code="NUTM" id="Q6UJ9A0039IG" csum="593911008">
+<attributes>
+<attribute key="FUND_EIN" value="13-3742114" csum="-94630746"/>
+<attribute key="ITG_FAMILY" value="Nutmeg Partners, L.P." csum="-1231942003"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Nutmeg Partners, L.P." csum="75612751"/>
+</attributes>
+</fund>
+<fund seq="107" code="NYCR" id="Q6UJ9B02WSCL" csum="321190719">
+<attributes>
+<attribute key="FUND_EIN" value="90-0851916" csum="-106089433"/>
+<attribute key="ITG_FAMILY" value="AG Centre Street Partnership, L.P." csum="871320980"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Centre Street Partnership, L.P." csum="-2114158250"/>
+</attributes>
+</fund>
+<fund seq="108" code="OFFC" id="Q6UJ9A01C3SC" csum="587654286">
+<attributes>
+<attribute key="FUND_EIN" value="98-0381393" csum="-116375894"/>
+<attribute key="ITG_FAMILY" value="AG Offshore Convertibles, Ltd." csum="1497970158"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="NAME" value="AG Offshore Convertibles, Ltd." csum="-346359508"/>
+</attributes>
+</fund>
+<fund seq="109" code="OWLF" id="Q6UJ9B035P15" csum="324444235">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Opportunistic Whole Loan Fund" csum="313660716"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Opportunistic Whole Loan Fund, L.P." csum="-1139910146"/>
+</attributes>
+</fund>
+<fund seq="110" code="PATR" id="Q6UJ9A0039J2" csum="593996975">
+<attributes>
+<attribute key="FUND_EIN" value="13-3887446" csum="-90154508"/>
+<attribute key="ITG_FAMILY" value="PHS Patriot Fund, L.P." csum="84414409"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="PHS Patriot Fund, LP" csum="1979517105"/>
+</attributes>
+</fund>
+<fund seq="111" code="PPID" id="Q6UJ9A01PW36" csum="588391721">
+<attributes>
+<attribute key="FUND_EIN" value="27-0604244" csum="-112693310"/>
+<attribute key="ITG_FAMILY" value="AG GECC Private-Public Investment Fund, L.P." csum="-1683826590"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG GECC Public-Private Investment Fund, L.P." csum="1817062982"/>
+</attributes>
+</fund>
+<fund seq="112" code="PPIH" id="Q6UJ9A01RV50" csum="588264261">
+<attributes>
+<attribute key="FUND_EIN" value="98-0630913" csum="-112516054"/>
+<attribute key="ITG_FAMILY" value="AG GECC Private-Public Investment Fund, L.P." csum="-1683826590"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG GECC PPIF Holdings, L.P." csum="1949696159"/>
+</attributes>
+</fund>
+<fund seq="113" code="PPIP" id="Q6UJ9A01RV51" csum="588264269">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG GECC Private-Public Investment Fund, L.P." csum="-1683826590"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="NAME" value="AG GECC PPIF Master Fund, L.P." csum="-208854735"/>
+</attributes>
+</fund>
+<fund seq="114" code="PRIN" id="Q6UJ9A0039JK" csum="594000371">
+<attributes>
+<attribute key="FUND_EIN" value="13-4013877" csum="-47639099"/>
+<attribute key="ITG_FAMILY" value="AG Princess, L.P." csum="-1496742229"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG Princess, L.P." csum="349850217"/>
+</attributes>
+</fund>
+<fund seq="115" code="R7AC" id="Q6UJ9A01GV05" csum="587559326">
+<attributes>
+<attribute key="FUND_EIN" value="26-1438397" csum="-127160816"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VII" csum="-169316182"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNI" csum="-300669177"/>
+<attribute key="NAME" value="AG Realty Fund VII (AC), L.P." csum="100472000"/>
+</attributes>
+</fund>
+<fund seq="116" code="R7AU" id="Q6UJ9A01H661" csum="588019656">
+<attributes>
+<attribute key="FUND_EIN" value="26-1434841" csum="-127179322"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VII" csum="-169316182"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNI" csum="-300669177"/>
+<attribute key="NAME" value="AG Realty Fund VII (AU), L.P." csum="1711084737"/>
+</attributes>
+</fund>
+<fund seq="117" code="R7TE" id="Q6UJ9A01ER1H" csum="587675160">
+<attributes>
+<attribute key="FUND_EIN" value="26-0330156" csum="-115659567"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VII" csum="-169316182"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNI" csum="-300669177"/>
+<attribute key="NAME" value="AG Realty Fund VII (TE), L.P." csum="1711084757"/>
+</attributes>
+</fund>
+<fund seq="118" code="R8KY" id="Q6UJ9B02UWRM" csum="321325988">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VIII" csum="-918043041"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Please contact Angelo, Gordon to discuss tax reporting" csum="1637154889"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VIII (Cayman), L.P." csum="1054488821"/>
+</attributes>
+</fund>
+<fund seq="119" code="RECH" id="Q6UJ9A0039JX" csum="593989477">
+<attributes>
+<attribute key="FUND_EIN" value="98-0508966" csum="-109534113"/>
+<attribute key="ITG_FAMILY" value="AG Capital Recovery Holdings, Ltd." csum="369615626"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Capital Recovery Holdings, Ltd." csum="-1542180920"/>
+</attributes>
+</fund>
+<fund seq="120" code="REDD" id="Q6UJ9A01X368" csum="589059353">
+<attributes>
+<attribute key="FUND_EIN" value="27-3466381" csum="-93434361"/>
+<attribute key="ITG_FAMILY" value="AG Real Estate Debt Investment Fund" csum="-442005892"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Real Estate Debt Investment Fund, L.P." csum="-319206291"/>
+</attributes>
+</fund>
+<fund seq="121" code="REDI" id="Q6UJ9A79U4FM" csum="613503556">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Real Estate Debt Investment Fund" csum="-442005892"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before March 31, 2014" csum="-118128042"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="AG REDI Master Fund, L.P." csum="-1209156253"/>
+</attributes>
+</fund>
+<fund seq="122" code="REDO" id="Q6UJ9A01X36B" csum="589058738">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Real Estate Debt Investment Fund" csum="-442005892"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC statement will be available upon request" csum="552497605"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG REDI, Ltd." csum="199999071"/>
+</attributes>
+</fund>
+<fund seq="123" code="RL5E" id="Q6UJ9A00C7L6" csum="588734952">
+<attributes>
+<attribute key="FUND_EIN" value="52-2349798" csum="-82003349"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund V" csum="1394484339"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty V Employee Investment Program, L.P." csum="-852669507"/>
+</attributes>
+</fund>
+<fund seq="124" code="RL6E" id="Q6UJ9A00ZQNY" csum="587728168">
+<attributes>
+<attribute key="FUND_EIN" value="20-1903309" csum="-122151288"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VI" csum="-1507685435"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VI Employee Investment Program, L.P." csum="-850583574"/>
+</attributes>
+</fund>
+<fund seq="125" code="RL7E" id="Q6UJ9A01EM8O" csum="587641432">
+<attributes>
+<attribute key="FUND_EIN" value="33-1169772" csum="-130106656"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VII" csum="-169316182"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNI" csum="-300669177"/>
+<attribute key="NAME" value="AG Realty Fund VII Employee Investment Program, L.P." csum="129396921"/>
+</attributes>
+</fund>
+<fund seq="126" code="RL8A" id="Q6UJ9A01Y6VA" csum="589130828">
+<attributes>
+<attribute key="FUND_EIN" value="27-3575000" csum="-92308090"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VIII" csum="-918043041"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VIII (A), L.P." csum="637369641"/>
+</attributes>
+</fund>
+<fund seq="127" code="RL8E" id="Q6UJ9A01YF62" csum="588909432">
+<attributes>
+<attribute key="FUND_EIN" value="27-3687032" csum="-96445004"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VIII" csum="-918043041"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VIII Employee Investment Program, L.P." csum="-1476360827"/>
+</attributes>
+</fund>
+<fund seq="128" code="RLT3" id="Q6UJ9A0039JE" csum="593987262">
+<attributes>
+<attribute key="FUND_EIN" value="13-3970817" csum="-88136283"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund III" csum="-169316438"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund III, L.P." csum="988349316"/>
+</attributes>
+</fund>
+<fund seq="129" code="RLT4" id="Q6UJ9A0039JM" csum="593987129">
+<attributes>
+<attribute key="FUND_EIN" value="13-4025941" csum="-47549197"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund IV" csum="-1507685846"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund IV, L.P." csum="-1162163871"/>
+</attributes>
+</fund>
+<fund seq="130" code="RLT5" id="Q6UJ9A0039K5" csum="593985720">
+<attributes>
+<attribute key="FUND_EIN" value="13-4148108" csum="-46355270"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund V" csum="1394484339"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund V, L.P." csum="-481298993"/>
+</attributes>
+</fund>
+<fund seq="131" code="RLT6" id="Q6UJ9A00BKWX" csum="588364395">
+<attributes>
+<attribute key="FUND_EIN" value="20-1811989" csum="-123128824"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VI" csum="-1507685435"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VI, L.P." csum="1438304608"/>
+</attributes>
+</fund>
+<fund seq="132" code="RLT7" id="Q6UJ9A012LL0" csum="594663402">
+<attributes>
+<attribute key="FUND_EIN" value="26-0330067" csum="-115659296"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VII" csum="-169316182"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNI" csum="-300669177"/>
+<attribute key="NAME" value="AG Realty Fund VII, L.P." csum="988349339"/>
+</attributes>
+</fund>
+<fund seq="133" code="RLT8" id="Q6UJ9A01F2MV" csum="587346053">
+<attributes>
+<attribute key="FUND_EIN" value="27-2996434" csum="-72267342"/>
+<attribute key="ITG_FAMILY" value="AG Realty Fund VIII" csum="-918043041"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund VIII, L.P." csum="-808080339"/>
+</attributes>
+</fund>
+<fund seq="134" code="RLT9" id="Q6UJ9A01XCSM" csum="588988212">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Realty Fund IX" csum="-1507685852"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="QYNICDS" csum="-1161052739"/>
+<attribute key="NAME" value="AG Realty Fund IX, L.P." csum="-1262827167"/>
+</attributes>
+</fund>
+<fund seq="135" code="RWNI" id="Q6UJ9A79RZ3T" csum="613471348">
+<attributes>
+<attribute key="ITG_FAMILY" value="RWNIH - AGC LLC" csum="-1605236930"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="RWNIH - AGC" csum="-630895783"/>
+</attributes>
+</fund>
+<fund seq="136" code="S4SP" id="Q6UJ9B032QS2" csum="324038877">
+<attributes>
+<attribute key="ITG_FAMILY" value="SC Alternative Strategy 4 SP" csum="933180409"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="SC Alternative Strategy 4 SP" csum="-2054357189"/>
+</attributes>
+</fund>
+<fund seq="137" code="SCAS" id="Q6UJ9B02ZYJU" csum="321427854">
+<attributes>
+<attribute key="ITG_FAMILY" value="SC Alternative Strategy 1 SP" csum="933192697"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="SC Alternative Strategy 1 SP" csum="-2054377669"/>
+</attributes>
+</fund>
+<fund seq="138" code="SCL4" id="Q6UJ9B02Y9CM" csum="321753529">
+<attributes>
+<attribute key="ITG_FAMILY" value="Swiss Capital PRO Loan IV Plc" csum="1724020121"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan IV Plc" csum="-724453029"/>
+</attributes>
+</fund>
+<fund seq="139" code="SCL6" id="Q6UJ9B03AY6I" csum="321119483">
+<attributes>
+<attribute key="ITG_FAMILY" value="Swiss Capital PRO Loan VI Plc" csum="1731032473"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan VI Plc" csum="-717309605"/>
+</attributes>
+</fund>
+<fund seq="140" code="SCLL" id="Q6UJ9B02TY93" csum="321317921">
+<attributes>
+<attribute key="ITG_FAMILY" value="Swiss Capital PRO Loan III Plc" csum="-92689988"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Swiss Capital Leveraged Loan Managed Account" csum="-269340918"/>
+</attributes>
+</fund>
+<fund seq="141" code="SCLV" id="Q6UJ9B02X8HT" csum="321686347">
+<attributes>
+<attribute key="ITG_FAMILY" value="Swiss Capital PRO Loan V Plc" csum="1057503323"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="Swiss Capital PRO Loan V Plc" csum="-1927547751"/>
+</attributes>
+</fund>
+<fund seq="142" code="SGH2" id="Q6UJ9B02TPQ7" csum="321261663">
+<attributes>
+<attribute key="FUND_EIN" value="98-1026191" csum="-131445592"/>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG II" csum="-947002267"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings II, L.P." csum="-1495501450"/>
+</attributes>
+</fund>
+<fund seq="143" code="SGH3" id="Q6UJ9B037AUM" csum="324273150">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG III" csum="-283211092"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings III, L.P." csum="209896180"/>
+</attributes>
+</fund>
+<fund seq="144" code="SGHD" id="Q6UJ9A01PF26" csum="588452665">
+<attributes>
+<attribute key="FUND_EIN" value="98-0620256" csum="-112578705"/>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG" csum="-524367657"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG Holdings, L.P." csum="1885955410"/>
+</attributes>
+</fund>
+<fund seq="145" code="SGL2" id="Q6UJ9B02TPQ4" csum="321261615">
+<attributes>
+<attribute key="FUND_EIN" value="90-0776777" csum="-111195578"/>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG II" csum="-947002267"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG II, L.P." csum="-170170865"/>
+</attributes>
+</fund>
+<fund seq="146" code="SGL3" id="Q6UJ9B037AUL" csum="324273070">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG III" csum="-283211092"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG III, L.P." csum="1022621025"/>
+</attributes>
+</fund>
+<fund seq="147" code="SGLP" id="Q6UJ9A01PF25" csum="588452701">
+<attributes>
+<attribute key="FUND_EIN" value="26-4675147" csum="-45122368"/>
+<attribute key="ITG_FAMILY" value="AG MVP Plus SG" csum="-524367657"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="No tax reporting in 2013" csum="-1983712218"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG MVP Plus SG, L.P." csum="1207719203"/>
+</attributes>
+</fund>
+<fund seq="148" code="SHFI" id="Q6UJ9A01OGD6" csum="588020436">
+<attributes>
+<attribute key="ITG_FAMILY" value="Summer Hill Fixed Income AG, LLC" csum="715172366"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="NAME" value="Summer Hill Fixed Income AG, LLC" csum="-1733073204"/>
+</attributes>
+</fund>
+<fund seq="149" code="SIB5" id="Q6UJ9A79UXGB" csum="613912488">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Super Fund International" csum="-262414708"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="" csum="1308009200"/>
+<attribute key="NAME" value="AG Super Fund International Ltd. - Class B5 Shares" csum="-266324820"/>
+</attributes>
+</fund>
+<fund seq="150" code="SILT" id="Q6UJ9A0039IU" csum="593989721">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Super Fund International" csum="-262414708"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="PFIC Statements will be available on request" csum="1037629595"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Super Fund International Ltd." csum="-1316304102"/>
+</attributes>
+</fund>
+<fund seq="151" code="SPAF" id="Q6UJ9A79VBYR" csum="613755371">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Select Partners Advantage Fund" csum="-731379038"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Select Partners Advantage Fund, L.P." csum="852001761"/>
+</attributes>
+</fund>
+<fund seq="152" code="SPAH" id="Q6UJ9B02UYHW" csum="321358005">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Select Partners Advantage Fund" csum="-731379038"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Tax reporting available upon request" csum="1739242960"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Select Partners Advantage Holdings, L.P." csum="818652384"/>
+</attributes>
+</fund>
+<fund seq="153" code="STAH" id="Q6UJ9B02VRT3" csum="321136373">
+<attributes>
+<attribute key="FUND_EIN" value="98-1049974" csum="-131287987"/>
+<attribute key="ITG_FAMILY" value="AG Securitized Asset Recovery Fund" csum="146527588"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Securitized Asset Recovery Holdings, L.P." csum="-485203396"/>
+</attributes>
+</fund>
+<fund seq="154" code="STAR" id="Q6UJ9B02V0EC" csum="320999663">
+<attributes>
+<attribute key="FUND_EIN" value="80-0806788" csum="-106411351"/>
+<attribute key="ITG_FAMILY" value="AG Securitized Asset Recovery Fund" csum="146527588"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG Securitized Asset Recovery Fund, L.P." csum="-199995330"/>
+</attributes>
+</fund>
+<fund seq="155" code="SUPB" id="Q6UJ9A79UXGA" csum="613913295">
+<attributes>
+<attribute key="ITG_FAMILY" value="AG Super Fund, L.P." csum="1994342394"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Estimates available in the Document Library.  K-1s expected June 2014." csum="-62507631"/>
+<attribute key="NAME" value="AG Super Fund, L.P. - Class B Interests" csum="-1639590161"/>
+</attributes>
+</fund>
+<fund seq="156" code="SUPR" id="Q6UJ9A0039IF" csum="593988783">
+<attributes>
+<attribute key="FUND_EIN" value="13-3701947" csum="-94882571"/>
+<attribute key="ITG_FAMILY" value="AG Super Fund, L.P." csum="1994342394"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MQYN" csum="-300552592"/>
+<attribute key="NAME" value="AG Super Fund, L.P." csum="-993201352"/>
+</attributes>
+</fund>
+<fund seq="157" code="TCDI" id="Q6UJ9B02WFY0" csum="321129620">
+<attributes>
+<attribute key="FUND_EIN" value="32-0378684" csum="-115365097"/>
+<attribute key="ITG_FAMILY" value="AG TCDRS Diversified Income Fund, L.P." csum="-1690399564"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG TCDRS Diversified Income Fund, L.P." csum="690831478"/>
+</attributes>
+</fund>
+<fund seq="158" code="TCDR" id="Q6UJ9A01XRSO" csum="588923263">
+<attributes>
+<attribute key="FUND_EIN" value="27-3557422" csum="-92448348"/>
+<attribute key="ITG_FAMILY" value="AG TCDRS, L.P." csum="-941084979"/>
+<attribute key="ITG_FUND_TYPE" value="CLOSED" csum="-1592178571"/>
+<attribute key="ITG_TAX_LINK" value="TRUE" csum="1307692805"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="AG TCDRS, L.P." csum="1979441679"/>
+</attributes>
+</fund>
+<fund seq="159" code="TXUF" id="Q6UJ9B036WKF" csum="324277227">
+<attributes>
+<attribute key="ITG_FAMILY" value="Beaverhead Capital LLC" csum="-1223493549"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Separate Account - No Tax Reporting Provided" csum="1102460840"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="MYQN" csum="-300554512"/>
+<attribute key="NAME" value="Beaverhead Capital LLC" csum="83965073"/>
+</attributes>
+</fund>
+<fund seq="160" code="VRS1" id="Q6UJ9A01KPHX" csum="587811612">
+<attributes>
+<attribute key="FUND_EIN" value="26-2534702" csum="-75797883"/>
+<attribute key="ITG_FAMILY" value="VAG Investors, LLC" csum="1673452150"/>
+<attribute key="ITG_FUND_TYPE" value="OPEN" csum="-1520088193"/>
+<attribute key="ITG_TAX_LINK" value="FALSE" csum="1303806309"/>
+<attribute key="ITG_TAX_NOTE" value="Expected on or before October 15, 2014" csum="-1471491487"/>
+<attribute key="ITG_VALUATION_COLUMNS" value="N" csum="-300848416"/>
+<attribute key="NAME" value="VAG Investors, LLC" csum="-777185612"/>
+</attributes>
+</fund>
+</funds>
+</data>
+</fundinfoexport>

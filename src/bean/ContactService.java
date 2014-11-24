@@ -10,6 +10,14 @@ public class ContactService {
 	private String investorAccountId;
 	private String investorAccountCode;
 	private String accountId;
+	private String service;
+	
+	public String getService() {
+		return service;
+	}
+	public void setService(String service) {
+		this.service = service;
+	}
 	public String getId() {
 		return Id;
 	}

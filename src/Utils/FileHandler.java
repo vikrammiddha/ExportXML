@@ -14,7 +14,7 @@ public class FileHandler {
 	
 	public static void write(String s, Boolean append, AppConfig config, String outputFileName) throws Exception {
 		
-		LOGGER.debug("Writing to File.....");
+		//LOGGER.debug("Writing to File....." + s);
 	    File file = new File(config.getOutputDirectory() + "/" + outputFileName + ".xml");
 
 	    FileWriter writer = new FileWriter(file.getAbsoluteFile(), append);
@@ -23,7 +23,7 @@ public class FileHandler {
 	        out.print(s);           
 	        out.flush();
 	        writer.flush();
-	        LOGGER.debug("Writing to File Completed.....");
+	        //LOGGER.debug("Writing to File Completed.....");
 	    } finally {
 	        writer.close();
 	        out.close();

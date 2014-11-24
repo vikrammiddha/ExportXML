@@ -1,26 +1,31 @@
 package Utils;
 
-import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 import org.apache.log4j.Logger;
 
+import bean.Account;
+import bean.Contact;
+import bean.ContactService;
 import bean.Fund;
+import bean.Organisation;
+import bean.Service;
 
 import com.config.AppConfig;
-import com.sforce.async.JobInfo;
 import com.sforce.soap.partner.Connector;
 import com.sforce.soap.partner.PartnerConnection;
 import com.sforce.soap.partner.QueryResult;
 import com.sforce.soap.partner.sobject.SObject;
 import com.sforce.ws.ConnectorConfig;
-import com.sforce.async.*;
+import com.sforce.ws.bind.XmlObject;
+
 
 
 public class SFDCHandler {
 
 	private PartnerConnection connection;
-	private BulkConnection bulkConnection;
 	private static final Logger LOGGER = Logger.getLogger(SFDCHandler.class);
 
 	public SFDCHandler(){
@@ -32,10 +37,10 @@ public class SFDCHandler {
 		config.setUsername(appConfig.getSfdcUserName());
 		config.setPassword(appConfig.getSfdcPassword());
 		config.setAuthEndpoint(appConfig.getEndPoint());
-		config.setCompression(true);
-		config.setTraceFile("traceLogs.txt");
-		config.setTraceMessage(true);
-		config.setPrettyPrintXml(true);
+		//config.setCompression(true);
+		//config.setTraceFile("traceLogs.txt");
+		//config.setTraceMessage(true);
+		//config.setPrettyPrintXml(true);
 
 		try{
 			connection = Connector.newConnection(config);
@@ -56,135 +61,280 @@ public class SFDCHandler {
 		}
 	}
 
-	public void populateData(XMLUtils obj) throws Exception {
+	public ArrayList<Fund> getFunds() throws Exception{
 
 		LOGGER.debug("Querying Funds.....");
+
 		ArrayList<Fund> fundList = new ArrayList<Fund>();
-		try {
 
-			/*JobInfo job = createJob("Fund__c");
-			String query = "SELECT Id FROM Fund__c";
-			ByteArrayInputStream byteArrayInputStream =getData(query,job);
-			//TODO: closeJob(bulkconnection, job.getId());
-			System.out.println("Data: "+byteArrayInputStream);
-		        int c;
-		        while(( c= byteArrayInputStream.read())!= -1) {
-		            LOGGER.debug("Val = " + (char)c);
-		         }
-			 */
-			// query for the 5 newest contacts  
+		/*LOGGER.debug("Quering lastExecutedDate...");
+		String lastExecutedDate = "";
+		QueryResult custSettingResult = connection.query("Select Last_Exported_Time__c FROM XML_Export__c limit 1");
+		if (custSettingResult.getSize() > 0) {
+			lastExecutedDate = (String)custSettingResult.getRecords()[0].getField("Last_Exported_Time__c");
+			lastExecutedDate = lastExecutedDate.split("-")[0] + "-" + lastExecutedDate.split("-")[2].split("T")[0] + "-" +
+					lastExecutedDate.split("-")[1] + "T" + lastExecutedDate.split("-")[2].split("T")[1];
+			LOGGER.debug("lastExecutedDate : " + lastExecutedDate);
+		}*/
 
-			LOGGER.debug("Quering lastExecutedDate...");
-			String lastExecutedDate = "";
-			QueryResult custSettingResult = connection.query("Select Last_Exported_Time__c FROM XML_Export__c limit 1");
-			if (custSettingResult.getSize() > 0) {
-				lastExecutedDate = (String)custSettingResult.getRecords()[0].getField("Last_Exported_Time__c");
-				lastExecutedDate = lastExecutedDate.split("-")[0] + "-" + lastExecutedDate.split("-")[2].split("T")[0] + "-" +
-						lastExecutedDate.split("-")[1] + "T" + lastExecutedDate.split("-")[2].split("T")[1];
-				LOGGER.debug("lastExecutedDate : " + lastExecutedDate);
-			}
+		String fundsQuery = "SELECT Id,Fund_Code__c  FROM Fund__c WHERE Id IN ('a01J000000dK7blIAC', 'a01J000000dK7bgIAC', 'a01J000000dK7bwIAC')";
+		//String fundsQuery = "SELECT Id,Fund_Code__c  FROM Fund__c where recordtype.name = 'Fund'";
 
-			QueryResult queryResults = connection.query("SELECT Id,Fund_Code__c,"
-					+ "	(SELECT Id, Service_Text__c, Fund__c, Fund__r.Fund_Code__c, Contact__c, Investor_Account__r.Account_Code__c, Contact__r.AccountId "
-									+ "	FROM Contact_Services__r) FROM Fund__c WHERE LastModifiedDate > " + lastExecutedDate  + " limit 5");
-			if (queryResults.getSize() > 0) {
+		QueryResult queryResults = connection.query(fundsQuery);
+		LOGGER.debug("Total Funds retreived : " + queryResults.getSize());
+		boolean done = false;
+		if (queryResults.getSize() > 0) {
+			while (!done) {
 				ArrayList<String> fundCodeIds = new ArrayList<String>();
-				LOGGER.debug("Total Funds retreived : " + queryResults.getSize());
+
 				for (SObject s: queryResults.getRecords()) {
 					Fund f = new Fund();
 					f.setId(s.getId());
-					f.setCode((String)s.getField("Fund_Code__c"));
+					f.setCode(checkForNull((String)s.getField("Fund_Code__c")));
 					fundList.add(f);
 					fundCodeIds.add(s.getId());
-					//sb.append("Id: " + s.getId() + "\n");
+
 				}
 
-				obj.fundList = fundList;
-				
-				/*LOGGER.debug("Quering Contact Service records ....");
-				
-				String[] fundCodeIdsArr = fundCodeIds.toArray(new String[fundCodeIds.size()]);
-				SObject[] sObjectsCS = connection.retrieve("Id, Service_Text__c, Fund__c, Fund__r.Fund_Code__c, Contact__c,Investor_Account__r.Account_Code__c, Contact__r.AccountId",
-			            "Account", fundCodeIdsArr);
-				
-				LOGGER.debug("Queried " + sObjectsCS.length + " contact service records" );*/
+				if (queryResults.isDone()) {
+					done = true;
+				} else {
+					queryResults = connection.queryMore(queryResults.getQueryLocator());
+				}
 			}
 
+		}
+
+		return fundList ;
+
+	}
+
+	public void populateData(Fund fund, XMLUtils obj, HashMap<String,ArrayList<Service>> serviceMap) throws Exception {
+
+		ArrayList<ContactService> csList = new ArrayList<ContactService>();
+		ArrayList<Organisation> orgList = new ArrayList<Organisation>();
+		ArrayList<Account> accList = new ArrayList<Account>();
+		ArrayList<Contact> conList = new ArrayList<Contact>();
+		
+		HashSet<String> invAccountIds = new HashSet<String>();
+		HashSet<String> serviceIds = new HashSet<String>();
+		HashSet<String> duplicateOrgCheck = new HashSet<String>();
+		HashSet<String> duplicateAccountCheck = new HashSet<String>();
+		HashSet<String> duplicateContactCheck = new HashSet<String>();
+		
+
+		try {
+
+			QueryResult csqueryResults = connection.query("SELECT Id, Service_Text__c, Fund__c, Fund__r.Fund_Code__c, Contact__c, Investor_Account__r.Account_Code__c, Contact__r.AccountId " +
+					", Investor_Account__c, Investor_Account__r.Investor_Account_Name__c, Investor_Account__r.Account_Status__c, "
+					+ "Investor_Account__r.Organization__c,  Investor_Account__r.Organization__r.Name , Service__c "
+					+ " FROM Contact_Service__c WHERE Fund__c = '"+fund.getId()+"'");
+
+			LOGGER.debug("Total CS  retreived : " + csqueryResults.getSize());
+
+			Boolean done = false;
+			if (csqueryResults.getSize() > 0) {
+
+				while (!done) {
+
+					for (SObject s: csqueryResults.getRecords()) {
+						ContactService cs = new ContactService();
+						cs.setAccountId(checkForNull(getParentValue(s, "Contact__r", "AccountId", null)));
+						cs.setContact(checkForNull((String)s.getField("Contact__c")));
+						cs.setFund(checkForNull((String)s.getField("Fund__c")));
+						cs.setFundCode(checkForNull(getParentValue(s, "Fund__r", "Fund_Code__c", null)));
+						cs.setId(checkForNull(s.getId()));
+						cs.setInvestorAccountCode(checkForNull(getParentValue(s, "Investor_Account__r", "Account_Code__c", null)));
+						//cs.setInvestorAccountId((String)s.getField("Contact__r.AccountId"));
+						cs.setServiceText(checkForNull((String)s.getField("Service_Text__c")));
+						cs.setService(checkForNull((String)s.getField("Service__c")));
+						serviceIds.add(checkForNull(cs.getService()));
+						csList.add(cs);
+
+						Organisation org = new Organisation();
+						//LOGGER.debug("CS Id : " + cs.getId());
+						org.setId(checkForNull(getParentValue(s, "Investor_Account__r", "Organization__c", null)));
+						org.setName(checkForNull(getParentValue(s, "Investor_Account__r", "Organization__r", "Name")));
+						//org.setName((String)((XmlObject) s.getField("Investor_Account__r")).getChild("Organization__c").getValue());
+						if(!duplicateOrgCheck.contains(org.getId())){
+							orgList.add(org);
+						}
+						duplicateOrgCheck.add(org.getId());
+
+						Account acc = new Account();
+						acc.setId(checkForNull((String)s.getField("Investor_Account__c")));
+						acc.setName(checkForNull(getParentValue(s, "Investor_Account__r", "Investor_Account_Name__c", null).replaceAll("\"", "\"\"")));
+						acc.setCode(checkForNull(getParentValue(s, "Investor_Account__r", "Account_Code__c", null)));
+						acc.setOrganisation(checkForNull(getParentValue(s, "Investor_Account__r", "Organization__c", null)));
+						acc.setStatus(checkForNull(getParentValue(s, "Investor_Account__r", "Account_Status__c", null)));
+						
+						if(!duplicateAccountCheck.contains(acc.getId()))
+							accList.add(acc);
+						
+						duplicateAccountCheck.add(acc.getId());
+
+						invAccountIds.add(acc.getId());
+					}
+
+					if (csqueryResults.isDone()) {
+						done = true;
+					} else {
+						csqueryResults = connection.queryMore(csqueryResults.getQueryLocator());
+					}
+				}
+
+			}
+			
+			//LOGGER.debug("serviceIds : " + serviceIds);
+			
+			String serviceWhereClause = "";
+
+			int counterService = 1;
+
+			for(String sId : serviceIds){
+				if(sId != null && !sId.equals("null"))
+					serviceWhereClause += "'" + sId + "',";
+
+				if(serviceWhereClause.length() > 15000 || serviceIds.size() == counterService ){
+
+					serviceWhereClause = serviceWhereClause.substring(0, serviceWhereClause.length() - 1);
+
+					QueryResult servicequeryResults = connection.query("SELECT Service_Type__c, Web_Category__c, Web_Fund_Code__c FROM Website_Translation__c"
+							+ " WHERE Service_Type__c IN (" + serviceWhereClause + ")");
+					//+ "FROM Investor_Contacts__c WHERE Investor_Account__c IN ( select Investor_Account__c from contact_service__c where fund__c = '"+fund.getId()+"')");
+
+					LOGGER.debug("Total Web translations retreived : " + servicequeryResults.getSize());
+
+					done = false;
+					if (servicequeryResults.getSize() > 0) {
+
+						while (!done) {
+
+							for (SObject s: servicequeryResults.getRecords()) {
+								Service ser = new Service();
+								ser.setCategory(checkForNull((String)s.getField("Web_Category__c")));
+								ser.setFundCode(checkForNull((String)s.getField("Web_Fund_Code__c")));
+								ser.setServiceType(checkForNull((String)s.getField("Service_Type__c")));
+								
+								if(serviceMap.get(ser.getServiceType()) == null){
+									serviceMap.put(ser.getServiceType(), new ArrayList<Service>());
+								}
+								
+								serviceMap.get(ser.getServiceType()).add(ser);
+							}
+
+							if (servicequeryResults.isDone()) {
+								done = true;
+							} else {
+								servicequeryResults = connection.queryMore(servicequeryResults.getQueryLocator());
+							}
+						}
+
+					}
+					serviceWhereClause = "";
+				}
+				counterService++;
+			}
+			
+
+			String invAccWhereClause = "";
+
+			int counter = 1;
+
+			for(String iaId : invAccountIds){
+				if(iaId != null && !iaId.equals("null"))
+					invAccWhereClause += "'" + iaId + "',";
+
+				if(invAccWhereClause.length() > 15000 || invAccountIds.size() == counter ){
+
+					invAccWhereClause = invAccWhereClause.substring(0, invAccWhereClause.length() - 1);
+
+					QueryResult icqueryResults = connection.query("SELECT Contact_Name__c, Investor_Account__c, SLX_Source__c, Contact__c,Contact__r.AccountId, "
+							+ "Contact__r.Name, Contact__r.FirstName, Contact__r.LastName, Contact__r.Email, Contact__r.Preferred_Name__c, "
+							+ "Contact__r.Salutation,Contact__r.OtherStreet, Contact__r.OtherCity, Contact__r.OtherState, Contact__r.OtherPostalCode "
+							+ "FROM Investor_Contacts__c WHERE Investor_Account__c IN (" + invAccWhereClause + ")");
+					//+ "FROM Investor_Contacts__c WHERE Investor_Account__c IN ( select Investor_Account__c from contact_service__c where fund__c = '"+fund.getId()+"')");
+
+					LOGGER.debug("Total Investor Contacts  retreived : " + icqueryResults.getSize());
+
+					done = false;
+					if (icqueryResults.getSize() > 0) {
+
+						while (!done) {
+
+							for (SObject s: icqueryResults.getRecords()) {
+								Contact con = new Contact();
+								con.setAddress1(getParentValue(s, "Contact__r", "OtherStreet", null) != null ? getParentValue(s, "Contact__r", "OtherStreet", null).replaceAll("\n", "") : "");
+								con.setCity(checkForNull(getParentValue(s, "Contact__r", "OtherCity", null)));
+								con.setCsum("");
+								con.setEmail(checkForNull(getParentValue(s, "Contact__r", "Email", null)));
+								con.setFirstName(checkForNull(getParentValue(s, "Contact__r", "FirstName", null)));
+								con.setFormattedSalutation("Dear " + checkForNull(getParentValue(s, "Contact__r", "Preferred_Name__c", null)));
+								con.setId(checkForNull((String)s.getField("Contact__c")));
+								con.setLastName(checkForNull(getParentValue(s, "Contact__r", "LastName", null)));
+								con.setOrgId(getParentValue(s, "Contact__r", "AccountId", null));
+								con.setPostalCode(checkForNull(getParentValue(s, "Contact__r", "OtherPostalCode", null)));
+								con.setPrefix(checkForNull(getParentValue(s, "Contact__r", "Salutation", null)));
+								con.setSalutation(checkForNull(getParentValue(s, "Contact__r", "Preferred_Name__c", null)));
+								con.setState(checkForNull(getParentValue(s, "Contact__r", "OtherState", null)));
+								con.setFormattedAddress((con.getPrefix() + " " + getParentValue(s, "Contact__r", "Name", null) + "\\r" + con.getAddress1() + "\\r" +
+										con.getCity() + ", " + con.getState() + " " + con.getPostalCode()).replaceAll("\n", ""));
+
+								if(!duplicateContactCheck.contains(con.getId()))
+									conList.add(con);
+								
+								duplicateContactCheck.add(con.getId());
+							}
+
+							if (icqueryResults.isDone()) {
+								done = true;
+							} else {
+								icqueryResults = connection.queryMore(icqueryResults.getQueryLocator());
+							}
+						}
+
+					}
+					invAccWhereClause = "";
+				}
+				counter++;
+			}
+
+
+
+			obj.csList = csList;
+			obj.orgList = orgList;
+			obj.accList = accList;
+			obj.conList = conList;
+
 		} catch (Exception e) {
-			LOGGER.error("Exception occured while querying funds ." + e.getCause());
+
+			LOGGER.error("Exception occured while querying funds ." + e.toString());
 			throw new Exception(e);
 		}    
 
 	}
 
+	private static String getParentValue(SObject s, String firstField, String secondField, String thirdField){
 
-	/*public JobInfo createJob(String sobjectType)
-			throws AsyncApiException {
-		JobInfo job = new JobInfo();
-		job.setObject(sobjectType);
-		job.setOperation(OperationEnum.query);
-		job.setConcurrencyMode(ConcurrencyMode.Parallel);
-		job.setContentType(ContentType.CSV);
-		job = bulkConnection.createJob(job);
-		assert job.getId() != null;
-		job = bulkConnection.getJobStatus(job.getId());
-		System.out.println("\nJob: "+job);
-		return job;
-	}
-
-	public ByteArrayInputStream getData(String query, JobInfo job) {
-		ByteArrayInputStream inputStream = null;
-		try{    
-			System.out.println("querying...:"+query);
-			BatchInfo info = null;
-			ByteArrayInputStream bout = new ByteArrayInputStream(
-					query.getBytes());// convert query into ByteArrayInputStream
-			info = bulkConnection.createBatchFromStream(job, bout);// creates batch from ByteArrayInputStream
-			String[] queryResults = null;// to store QueryResultList
-			QueryResultList list = null;
-			int count=0;
-			for (int i = 0; i < 10000; i++) // 10000=maxRowsPerBatch
-			{
-				count++;
-				Thread.sleep(i == 0 ? 5 * 1000 : 5 * 1000); // 30 sec
-
-				info = bulkConnection.getBatchInfo(job.getId(), info.getId());
-				// If Batch Status is Completed,get QueryResultList and store in
-				// queryResults.
-
-				System.out.println("BatchStateEnum.Completed:"+BatchStateEnum.Completed);
-
-				if (info.getState() == BatchStateEnum.Completed) {
-
-					list = bulkConnection.getQueryResultList(job.getId(),
-							info.getId());
-					queryResults = list.getResult();
-
-					break;
-				} else if (info.getState() == BatchStateEnum.Failed) {
-					System.out.println("-------------- failed ----------"
-							+ info);
-					break;
-				} else {
-					System.out.println("-------------- waiting ----------"
-							+ info);
-				}
+		try{
+			if(thirdField == null){
+				return (String)((XmlObject) s.getField(firstField)).getChild(secondField).getValue();
+			}else{
+				return (String)(((XmlObject)((XmlObject) s.getField(firstField)).getField(secondField)).getChild(thirdField).getValue());
 			}
-			System.out.println("count::--"+count);
-			System.out.println("QueryResultList::" + list);
-			if (queryResults != null) {
-				//for each resultid retrieve data and store in ByteArrayInputstream provided job id,batch id and result id 
-				//as returnType for bulkConnection.getQueryResultStream() method is ByteArrayInputstream
-				for (String resultId : queryResults) {
-					inputStream=(ByteArrayInputStream) bulkConnection.getQueryResultStream(job.getId(),
-							info.getId(), resultId);
-				}
-			}
-
-		} catch (AsyncApiException | InterruptedException aae) {
-			aae.printStackTrace();
+		}catch(Exception e){
+			//LOGGER.error("Error while getting parent value :" + e.getStackTrace() + e.getMessage() + e.getCause());
+			return "";
 		}
-		return inputStream;
-	}*/
+
+	}
+	
+	private static String checkForNull(String str){
+		if(str != null && !str.isEmpty()){
+			return str;
+		}
+		
+		return "";
+	}
 
 }

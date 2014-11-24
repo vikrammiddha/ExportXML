@@ -36,7 +36,7 @@ public class Configurator {
 			appConfig.setEndPoint(props.getProperty("sfdc.endPoint"));
 			appConfig.setSfdcUserName(props.getProperty("sfdc.sfdcUsername"));
 			appConfig.setSfdcPassword(props.getProperty("sfdc.sfdcPassword"));
-			appConfig.setOutputDirectory(props.getProperty("export.outputDirectory"));
+			appConfig.setOutputDirectory(props.getProperty("serviceexport.outputDirectory"));
 			appConfig.setRestEndPoint(props.getProperty("sfdc.restEndPoint"));
 			
 		} catch (IOException e) {
