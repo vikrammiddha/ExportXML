@@ -10,6 +10,7 @@ import bean.Account;
 import bean.Contact;
 import bean.ContactService;
 import bean.Fund;
+import bean.Investment;
 import bean.Organisation;
 import bean.Service;
 
@@ -163,6 +164,64 @@ public class SFDCHandler {
 
 	}
 
+	public void populateInvestmentData(XMLUtils obj) throws Exception{
+
+		ArrayList<Investment> invList = new ArrayList<Investment>();
+
+		try{
+
+			QueryResult invqueryResults = connection.query("SELECT Id,GL_Date__c,Currency__c,Prior_NAV__c,NAV__c,Fund_Code__c,Account_Code__c"
+					+ ", IA_Key__c, Investor_Account__c, MTD__c, QTD__c, YTD__c, IRR__c, Total_Committed__c, Total_Called__c"
+					+ ", Total_Distributions__c, Total_Transferred__c FROM Investment__c");
+
+			LOGGER.debug("Total Investments retreived : " + invqueryResults.getSize());
+
+			if(invqueryResults.getSize() > 0){
+
+				Boolean done = false;
+				while (!done) {
+
+					for (SObject s: invqueryResults.getRecords()) {
+
+						Investment inv = new Investment();
+						inv.setAccountCode(checkForNull((String)s.getField("Account_Code__c")));
+						inv.setCurrency(checkForNull((String)s.getField("Currency__c")));
+						inv.setFundCode(checkForNull((String)s.getField("Fund_Code__c")));
+						inv.setGlDate(checkForNull((String)s.getField("GL_Date__c")));
+						inv.setIaKey(checkForNull((String)s.getField("IA_Key__c")));
+						inv.setInvestorAccount(checkForNull((String)s.getField("Investor_Account__c")));
+						inv.setIrr(checkForNull((String)s.getField("IRR__c")));
+						inv.setMtd(checkForNull((String)s.getField("MTD__c")));
+						inv.setNav(checkForNull((String)s.getField("NAV__c")));
+						inv.setPriorNAV(checkForNull((String)s.getField("Fund__c")));
+						inv.setQtd(checkForNull((String)s.getField("Prior_NAV__c")));
+						inv.setTotalCalled(checkForNull((String)s.getField("Total_Called__c")));
+						inv.setTotalCommitted(checkForNull((String)s.getField("Total_Committed__c")));
+						inv.setTotalDistributions(checkForNull((String)s.getField("Total_Distributions__c")));
+						inv.setTotalTransferred(checkForNull((String)s.getField("Total_Transferred__c")));
+						inv.setYtd(checkForNull((String)s.getField("YTD__c")));
+						invList.add(inv);
+
+
+					}
+
+
+					if (invqueryResults.isDone()) {
+						done = true;
+					} else {
+						invqueryResults = connection.queryMore(invqueryResults.getQueryLocator());
+					}
+				}
+				
+				obj.investmentList = invList;
+			}
+
+		}catch(Exception e){
+			LOGGER.error("Exception occured while getting investment records for valuation export file ." + e.toString());
+			throw new Exception(e);
+		}
+
+	}
 
 	public void populateData(Fund fund, XMLUtils obj, HashMap<String,ArrayList<Service>> serviceMap) throws Exception {
 

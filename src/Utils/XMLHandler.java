@@ -1,9 +1,7 @@
 package Utils;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
+
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.HashMap;
 
 import org.apache.log4j.Logger;
@@ -14,6 +12,7 @@ import bean.Account;
 import bean.Contact;
 import bean.ContactService;
 import bean.Fund;
+import bean.Investment;
 import bean.Organisation;
 import bean.Service;
 
@@ -23,15 +22,19 @@ public class XMLHandler {
 
 	public static String getFundInfoXMLHeader(){
 		return "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n" + 
-				"<serviceexport xmlns=\"http://schemas.angelogordon.com/website/2012/exports/services/1.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://schemas.angelogordon.com/website/2012/exports/services/1.0 exportservice.xsd\" version=\"1.3a\">"+
-				//"<metadata>\n" +
+				"<serviceexport xmlns=\"http://schemas.angelogordon.com/website/2012/exports/services/1.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://schemas.angelogordon.com/website/2012/exports/services/1.0 exportservice.xsd\" version=\"1.3a\">\n"+
 				"<data>\n";
 	}
 
 	public static String getContactLevelServiceXMLHeader(){
 		return "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n" + 
+				"<val-export xmlns=\"http://schemas.angelogordon.com/website/2012/exports/val-export/1.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://schemas.angelogordon.com/website/2012/exports/val-export/1.0 exportvaluationinfo.xsd\" version=\"0.91\">\n"+
+				"<data>\n";
+	}
+	
+	public static String getValuationXMLHeader(){
+		return "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n" + 
 				"<fundinfoexport xmlns=\"http://schemas.angelogordon.com/website/2012/exports/funds/1.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://schemas.angelogordon.com/website/2012/exports/funds/1.0 exportfundinfo.xsd\" version=\"0.90\">\n" +
-				//"<metadata>\n" +
 				"<data>\n";
 	}
 
@@ -46,6 +49,7 @@ public class XMLHandler {
 		s = "<funds>\n";
 		writeToXMLFile(s,appConfig,fileName);
 		s = "\t<fund  id=\"" +f.getId() +"\" code=\""+f.getCode()+"\" />\n";
+		s = removeEmptyTags(s);
 		writeToXMLFile(s,appConfig,fileName);
 		s = "</funds>\n";
 		writeToXMLFile(s,appConfig,fileName);
@@ -62,11 +66,13 @@ public class XMLHandler {
 			if(serviceMap.get(cs.getService()) != null){
 				for(Service ser : serviceMap.get(cs.getService())){
 					s = "\t<service id=\""+cs.getId()+"\" iakey=\""+cs.getFundCode() + "-" + cs.getInvestorAccountCode()+"\" fundCode=\""+cs.getFundCode()+"\" accountCode=\""+cs.getInvestorAccountCode()+"\" slxService=\""+cs.getServiceText()+"\" deliveryRule=\"\" contactid=\""+cs.getContact()+"\" accountid=\""+cs.getAccountId()+ "\" itgFundCode=\""+ser.getFundCode()+"\" itgCategory=\""+ser.getCategory()+"\"/>\n";
+					s = removeEmptyTags(s);
 					writeToXMLFile(s,appConfig,fileName);
 					count++;
 				}
 			}else{
 				s = "\t<service id=\""+cs.getId()+"\" iakey=\""+cs.getFundCode() + "-" + cs.getInvestorAccountCode()+"\" fundCode=\""+cs.getFundCode()+"\" accountCode=\""+cs.getInvestorAccountCode()+"\" slxService=\""+cs.getServiceText()+"\" deliveryRule=\"\" contactid=\""+cs.getContact()+"\" accountid=\""+cs.getAccountId()+ "\" itgFundCode=\"\" itgCategory=\"\" />\n";
+				s = removeEmptyTags(s);
 				writeToXMLFile(s,appConfig,fileName);
 				count++;
 			}
@@ -85,10 +91,12 @@ public class XMLHandler {
 			if(serviceMap.get(cs.getService()) != null){
 				for(Service ser : serviceMap.get(cs.getService())){
 					s = "\t<service id=\""+cs.getId()+"\" slxService=\""+cs.getServiceText()+"\" deliveryRule=\""+cs.getDeliveryRule()+ "\" contactid=\""+cs.getContact()+"\" itgCategory=\""+ser.getCategory()+"\"/>\n";
+					s = removeEmptyTags(s);
 					writeToXMLFileForContactLevelServiceExport(s,appConfig,fileName);
 				}
 			}else{
 				s = "\t<service id=\""+cs.getId()+"\" slxService=\""+cs.getServiceText()+"\" deliveryRule=\""+cs.getDeliveryRule()+ "\" contactid=\""+cs.getContact()+"\" itgCategory=\"\"/>\n";
+				s = removeEmptyTags(s);
 				writeToXMLFileForContactLevelServiceExport(s,appConfig,fileName);
 			}
 
@@ -106,6 +114,7 @@ public class XMLHandler {
 
 		for(Organisation org : orgList){
 			s = "\t<org id=\"" + org.getId()+"\" name=\""+org.getName()+"\"/>\n";
+			s = removeEmptyTags(s);
 			writeToXMLFile(s,appConfig,fileName);
 			count++;
 		}
@@ -122,6 +131,7 @@ public class XMLHandler {
 
 		for(Account acc : accList){
 			s = "\t<account id=\""+acc.getId()+"\" code=\""+acc.getCode()+"\" name=\""+acc.getName()+"\" status=\""+acc.getStatus()+ "\" orgid=\""+acc.getOrganisation()+"\" />\n";
+			s = removeEmptyTags(s);
 			writeToXMLFile(s,appConfig,fileName);
 			count++;
 		}
@@ -139,6 +149,7 @@ public class XMLHandler {
 
 		for(Contact con : conList){
 			s = "\t<contact id=\""+con.getId()+"\" email=\""+con.getEmail()+"\" orgid=\""+con.getOrgId()+"\" lastName=\""+con.getLastName()+"\" firstName=\""+con.getFirstName()+"\" prefix=\""+con.getPrefix()+"\" salutation=\""+con.getSalutation()+"\" formattedSalutation=\""+con.getFormattedSalutation()+",\" formattedAddress=\""+con.getFormattedAddress()+"\" address1=\""+con.getAddress1()+"\" city=\""+con.getCity()+"\" state=\""+con.getState()+"\" postalCode=\""+con.getPostalCode()+"\" />\n";
+			s = removeEmptyTags(s);
 			writeToXMLFile(s,appConfig,fileName);
 			count++;
 		}
@@ -185,6 +196,26 @@ public class XMLHandler {
 		}
 
 	}
+	
+	public static void getInvestments(ArrayList<Investment> invList , AppConfig appConfig, String fileName){
+		String s = "";
+
+		Integer count = 1;
+		s = "<balances>\n";
+		writeToXMLFileForValuationExport(s,appConfig,fileName);
+
+		for(Investment inv : invList){
+			s = "<balance glDate=\"" + inv.getGlDate() + "\" currency=\""+inv.getCurrency()+"\" priorNAV=\""+inv.getPriorNAV()+"\" nav=\""+inv.getNav()+"\" iaKey=\""+inv.getIaKey()+"\" fundCode=\""+inv.getFundCode()+
+					"\" accountCode=\""+inv.getAccountCode()+"\" investorName=\""+inv.getInvestorAccount()+"\" mtd=\""+inv.getMtd()+"\" qtd=\""+inv.getQtd()+"\" ytd=\""+inv.getYtd()+"\" irr=\""+inv.getIrr()+"\" "
+							+ " totalCommitment=\""+inv.getTotalCommitted()+"\" totalCalled=\""+inv.getTotalCalled()+"\" totalDistributed=\""+inv.getTotalDistributions()+"\" totalTransferred=\""+inv.getTotalTransferred()+"\"/>\n";
+			s = removeEmptyTags(s);
+			writeToXMLFileForValuationExport(s,appConfig,fileName);
+			count++;
+		}
+
+		s = "</balances>\n";
+		writeToXMLFileForValuationExport(s,appConfig,fileName);
+	}
 
 	public static String getXMLFooter(){
 		return "\n</data>\n";
@@ -193,6 +224,13 @@ public class XMLHandler {
 	public static String getXMLFooterForFundExport(){
 		String footer = "</data>\n" +
 				"</fundinfoexport>";
+
+		return footer;
+	}
+	
+	public static String getXMLFooterForValuation(){
+		String footer = "</data>\n" +
+				"</val-export>";
 
 		return footer;
 	}
@@ -219,6 +257,18 @@ public class XMLHandler {
 		} catch (Exception e) {
 			LOGGER.error("Exception occur while writing to file : ", e);
 		}
+	}
+	
+	private static void writeToXMLFileForValuationExport(String s, AppConfig appConfig, String fileName){
+		try {
+			FileHandler.write(s, true, appConfig, fileName, appConfig.getValuationOutputDirectory());
+		} catch (Exception e) {
+			LOGGER.error("Exception occur while writing to file : ", e);
+		}
+	}
+	
+	public static String removeEmptyTags(String s){
+		return s.replaceAll("\\s\\w+=\"\"", "");
 	}
 
 }

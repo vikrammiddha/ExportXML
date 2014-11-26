@@ -10,6 +10,7 @@ public final class AppConfig {
 	private String restEndPoint;
 	private String fundInfoExportOutputDirectory;
 	private String contactLevelServicesOutputDirectory;
+	private String valuationOutputDirectory;
 	
 	public String getRestEndPoint() {
 		return restEndPoint;
@@ -55,6 +56,12 @@ public final class AppConfig {
 	public void setContactLevelServicesOutputDirectory(
 			String contactLevelServicesOutputDirectory) {
 		this.contactLevelServicesOutputDirectory = contactLevelServicesOutputDirectory;
+	}
+	public String getValuationOutputDirectory() {
+		return valuationOutputDirectory;
+	}
+	public void setValuationOutputDirectory(String valuationOutputDirectory) {
+		this.valuationOutputDirectory = valuationOutputDirectory;
 	}
 	
 	

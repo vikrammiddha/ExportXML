@@ -11,6 +11,7 @@ import bean.Account;
 import bean.Contact;
 import bean.ContactService;
 import bean.Fund;
+import bean.Investment;
 import bean.Organisation;
 import bean.Service;
 
@@ -29,6 +30,8 @@ public class XMLUtils {
 	ArrayList<Organisation> orgList = new ArrayList<Organisation>();
 	ArrayList<Account> accList = new ArrayList<Account>();
 	ArrayList<Contact> conList = new ArrayList<Contact>();
+	ArrayList<Investment> investmentList = new ArrayList<Investment>();
+	
 	HashMap<String,ArrayList<Service>> serviceMap = new HashMap<String,ArrayList<Service>>();
 
 	private static final Logger LOGGER = Logger.getLogger(XMLUtils.class);
@@ -170,6 +173,40 @@ public class XMLUtils {
 		
 	}
 	
+	
+	public void generateValuationXMLFiles(){
+		XMLUtils xmlObj = new XMLUtils();
+		try {
+			sfdcHandler.populateInvestmentData(xmlObj);
+		} catch (Exception e1) {
+			LOGGER.error("Error occured while retreiving Investment data Export from Salesforce. Cause :" + e1.getCause() + e1.getMessage() + e1.getStackTrace());
+		}
+
+		try {
+			createXMLFileForValuations(xmlObj);
+		} catch (Exception e) {
+			LOGGER.error("Error occured while generating File for Fund " +  e.getCause() + e.getMessage());
+		}
+	}
+	
+	private void createXMLFileForValuations(XMLUtils xmlObj){
+		Date date = new Date() ;
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss") ;
+		outputFileName =  "-sp_web_exportvaluation-" + dateFormat.format(date);
+		
+		String header = XMLHandler.getValuationXMLHeader();
+		writeToXMLFileForValuationExport(header, outputFileName);
+		
+		XMLHandler.getInvestments(xmlObj.investmentList, appConfig, outputFileName);
+		
+		String footer = XMLHandler.getXMLFooterForValuation();
+		
+		writeToXMLFileForValuationExport(footer, outputFileName);
+		
+	}
+	
+	
+	
 
 	private  void writeToXMLFile(String s, String fileName){
 		try {
@@ -190,6 +227,14 @@ public class XMLUtils {
 	private void writeToXMLFileForContactLevelServiceExport(String s, String fileName){
 		try {
 			FileHandler.write(s, true, appConfig, fileName, appConfig.getContactLevelServicesOutputDirectory());
+		} catch (Exception e) {
+			LOGGER.error("Exception occur while writing to file : ", e);
+		}
+	}
+	
+	private void writeToXMLFileForValuationExport(String s, String fileName){
+		try {
+			FileHandler.write(s, true, appConfig, fileName, appConfig.getValuationOutputDirectory());
 		} catch (Exception e) {
 			LOGGER.error("Exception occur while writing to file : ", e);
 		}

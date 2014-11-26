@@ -40,6 +40,7 @@ public class Configurator {
 			appConfig.setFundInfoExportOutputDirectory(props.getProperty("fundinfoexport.outputDirectory"));
 			appConfig.setRestEndPoint(props.getProperty("sfdc.restEndPoint"));
 			appConfig.setContactLevelServicesOutputDirectory(props.getProperty("contactslevelservicesexport.outputDirectory"));
+			appConfig.setValuationOutputDirectory(props.getProperty("valuationexport.outputDirectory"));
 			
 		} catch (IOException e) {
 			LOGGER.error("Exception while configuring the Application credentials ..." + e);

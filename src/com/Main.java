@@ -33,8 +33,12 @@ public class Main {
 		LOGGER.debug("=====Funds Info Export Process Finished=====");
 		
 		LOGGER.debug("=====Starting Contact Level Services Process=====");
-		mainObj.initiateContactLevelServicesProcess();
+		//mainObj.initiateContactLevelServicesProcess();
 		LOGGER.debug("=====Funds Contact Level Service Process Finished=====");
+		
+		LOGGER.debug("=====Starting Valuation Export Process=====");
+		mainObj.initiateValuationProcess();
+		LOGGER.debug("=====Valuation Export process Finished=====");
 		
 	}
 	
@@ -65,6 +69,17 @@ public class Main {
 		try {
 			obj = new XMLUtils(appConfig);
 			obj.generateContactLevelServicesXMLFiles();
+		} catch (Exception e) {
+			LOGGER.error("Exception in initiating the contact level servicess process :" + e.getCause());
+		}
+		
+	}
+	
+	public void initiateValuationProcess(){
+		XMLUtils obj;
+		try {
+			obj = new XMLUtils(appConfig);
+			obj.generateValuationXMLFiles();
 		} catch (Exception e) {
 			LOGGER.error("Exception in initiating the contact level servicess process :" + e.getCause());
 		}
